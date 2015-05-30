@@ -385,22 +385,15 @@
     </header>
     <div class="entry">
       
-        <a id="more"></a>
-<h2 id="addEventListener">addEventListener</h2><p>可以在同一个对象上叠加不同方法<br><figure class="highlight openscad"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">var x = document.getElementById<span class="params">(<span class="string">"btn"</span>)</span>;</span><br><span class="line">x.addEventListener<span class="params">(<span class="string">"click"</span>,hello)</span>;</span><br><span class="line">x.addEventListener<span class="params">(<span class="string">"click"</span>,world)</span>;</span><br><span class="line">x.removeEventListener<span class="params">(<span class="string">"click"</span>,hello)</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">hello</span><span class="params">()</span>&#123;</span></span><br><span class="line">	alert<span class="params">(<span class="string">"Hello"</span>)</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">world</span><span class="params">()</span>&#123;</span></span><br><span class="line">	alert<span class="params">(<span class="string">"World"</span>)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="浏览器对象——window对象">浏览器对象——window对象</h2><ol>
-<li>window对象：<br>window对象是BOM的核心，window对象指当前的浏览器窗口<br>所有JavaScript全局对象、函数以及变量均自动成为window对象的成员<br>全局变量是window对象的属性<br>全局函数是window对象的方法<br>甚至HTML DOM的document也是window对象的属性之一</li>
-<li>window尺寸：<br>window.innerHeight - 浏览器窗口的内部高度<br>window.innerWidth - 浏览器窗口的内部宽度</li>
-<li>window方法<br>window.open() - 打开新窗口<br>window.close() - 关闭当前窗口</li>
-</ol>
-<h2 id="浏览器对象——计时器">浏览器对象——计时器</h2><ol>
-<li>计时事件：<br>　　在一个设定的时间间隔之后来执行代码，而不是在函数被调用后就被立即执行。我们称之为计时事件。</li>
-<li>计时方法：<br>1）：setInterval() - 间隔指定的毫秒数不停地执行指定的代码<br> clearInterval() - 用于停止setInterval方法执行的函数代码<br>2）：setTimeout() - 暂定指定的毫秒数后执行指定的代码<br>clearTimeout() - 用于停止执行setTimeout()方法的函数代码</li>
-</ol>
-
+        <h2 id="addEventListener">addEventListener</h2><p>可以在同一个对象上叠加不同方法<br>
       
     </div>
     <footer>
       
+        
+          <div class="alignleft">
+            <a href="/2015/02/09/JavaScript笔记/#more" class="more-link">Read More</a>
+          </div>
         
         
       
@@ -428,22 +421,15 @@
     </header>
     <div class="entry">
       
-        <a id="more"></a>
-<h2 id="JSP指令和脚本元素">JSP指令和脚本元素</h2><p>Directives &lt;%@ directive %&gt;<br>　　加载包：eg：<br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">page编译指令</span><br><span class="line">&lt;<span class="preprocessor">%</span>@ page import=<span class="string">"java.util.ArrayList"</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">&lt;<span class="preprocessor">%</span>@ page import=<span class="string">"java.util.LinkedList"</span> <span class="preprocessor">%</span>&gt;</span><br></pre></td></tr></table></figure></p>
-<p>错误页面定向<br><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="setting">errorPage=<span class="value"><span class="string">"handle_error.jsp"</span></span></span></span><br><span class="line"><span class="setting">isErrorPage=<span class="value"><span class="string">"true"</span></span></span></span><br></pre></td></tr></table></figure></p>
-<p>Declarations &lt;%! declaration %&gt;<br>　　声明全局变量<br>Expressions &lt;%= expression %&gt;<br>　　JSP表达式输出<br>Code Fragment/Scriptlet &lt;% code fragment %&gt;<br>Comments &lt;%— comment —%&gt;<br>　　注释</p>
-<h2 id="编译后的文件所在目录">编译后的文件所在目录</h2><p>E:\JAVA\workspace.metadata.plugins\org.eclipse.wst.server.core\tmp0</p>
-<h2 id="项目导出及部署有两种方式：">项目导出及部署有两种方式：</h2><p>1.cd到workspace-&gt;JSPStudy-&gt;WebContent文件夹目录下，输入命令行:<br>war -cvf JSPStudy.jar *<br>然后拷贝到TOMCAT的webapps目录下，然后启动TOMCAT会自动解压缩war文件。然后用浏览器访问即可。<br>2.在Eclipse中操作，右键项目名称选择Export-&gt;WAR file，选择导出路径在TOMCAT的webapps目录，然后启动TOMCAT会自动解压缩war文件。</p>
-<h2 id="注释">注释</h2><p>JSP的注释不会暴露给客户端<br><figure class="highlight mercury"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="comment">%--</span></span><br><span class="line">this <span class="keyword">is</span> JSP comments</span><br><span class="line">--<span class="comment">%&gt;</span></span><br><span class="line">&lt;<span class="comment">%</span></span><br><span class="line">	//this <span class="keyword">is</span> JAVA comment</span><br><span class="line">	<span class="comment">/* this is JAVA comments</span><br><span class="line">	*/</span></span><br><span class="line"><span class="comment">%&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="编译指令include">编译指令include</h2><p> 不能重复定义变量，即调用include的页面和被include的页面不能重复声明同一个变量</p>
-<h2 id="动作指令forward">动作指令forward</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">jsp:forward</span> <span class="attribute">page</span>=<span class="value">"login.jsp"</span>&gt;</span><span class="tag">&lt;/<span class="title">jsp:forward</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>forward指令以下的内容不会被输出</p>
-<h2 id="动作指令inlcude">动作指令inlcude</h2><p>用于包含动态(.jsp)或静态文件(.html)</p>
-<h2 id="JavaBean要创建在src文件夹目录下">JavaBean要创建在src文件夹目录下</h2><h2 id="out对象">out对象</h2><h2 id="request对象">request对象</h2>
+        <h2 id="JSP指令和脚本元素">JSP指令和脚本元素</h2><p>Directives &lt;%@ directive %&gt;<br>　　加载包：eg：<br>
       
     </div>
     <footer>
       
+        
+          <div class="alignleft">
+            <a href="/2015/02/02/JSP笔记/#more" class="more-link">Read More</a>
+          </div>
         
         
       
