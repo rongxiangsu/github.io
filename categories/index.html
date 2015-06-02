@@ -48,12 +48,18 @@
 
 
 
-  <title> JSP笔记 // 前端青年 </title>
+  <title>
+  
+
+  
+    分類 // 前端青年
+  
+</title>
 </head>
 
 <body>
 <!--[if lte IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari." style='margin-left:auto;margin-right:auto;display: block;'/></a></div> <![endif]-->
-  <div class="container one-column page-post-detail">
+  <div class="container one-column ">
     <div class="headband"></div>
 
     <div id="header" class="header">
@@ -118,95 +124,14 @@
 
   <div id="posts" class="posts-expand">
     
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              JSP笔记
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          發表於 2015-02-02
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分類於
-            
-              <a href="/categories/jsp/">jsp</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        <h2 id="JSP指令和脚本元素">JSP指令和脚本元素</h2><p>Directives &lt;%@ directive %&gt;<br>　　加载包：eg：<br><a id="more"></a><br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">page编译指令</span><br><span class="line">&lt;<span class="preprocessor">%</span>@ page import=<span class="string">"java.util.ArrayList"</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">&lt;<span class="preprocessor">%</span>@ page import=<span class="string">"java.util.LinkedList"</span> <span class="preprocessor">%</span>&gt;</span><br></pre></td></tr></table></figure></p>
-<p>错误页面定向<br><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="setting">errorPage=<span class="value"><span class="string">"handle_error.jsp"</span></span></span></span><br><span class="line"><span class="setting">isErrorPage=<span class="value"><span class="string">"true"</span></span></span></span><br></pre></td></tr></table></figure></p>
-<p>Declarations &lt;%! declaration %&gt;<br>　　声明全局变量<br>Expressions &lt;%= expression %&gt;<br>　　JSP表达式输出<br>Code Fragment/Scriptlet &lt;% code fragment %&gt;<br>Comments &lt;%— comment —%&gt;<br>　　注释</p>
-<h2 id="编译后的文件所在目录">编译后的文件所在目录</h2><p>E:\JAVA\workspace.metadata.plugins\org.eclipse.wst.server.core\tmp0</p>
-<h2 id="项目导出及部署有两种方式：">项目导出及部署有两种方式：</h2><p>1.cd到workspace-&gt;JSPStudy-&gt;WebContent文件夹目录下，输入命令行:<br>war -cvf JSPStudy.jar *<br>然后拷贝到TOMCAT的webapps目录下，然后启动TOMCAT会自动解压缩war文件。然后用浏览器访问即可。<br>2.在Eclipse中操作，右键项目名称选择Export-&gt;WAR file，选择导出路径在TOMCAT的webapps目录，然后启动TOMCAT会自动解压缩war文件。</p>
-<h2 id="注释">注释</h2><p>JSP的注释不会暴露给客户端<br><figure class="highlight mercury"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="comment">%--</span></span><br><span class="line">this <span class="keyword">is</span> JSP comments</span><br><span class="line">--<span class="comment">%&gt;</span></span><br><span class="line">&lt;<span class="comment">%</span></span><br><span class="line">	//this <span class="keyword">is</span> JAVA comment</span><br><span class="line">	<span class="comment">/* this is JAVA comments</span><br><span class="line">	*/</span></span><br><span class="line"><span class="comment">%&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="编译指令include">编译指令include</h2><p> 不能重复定义变量，即调用include的页面和被include的页面不能重复声明同一个变量</p>
-<h2 id="动作指令forward">动作指令forward</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">jsp:forward</span> <span class="attribute">page</span>=<span class="value">"login.jsp"</span>&gt;</span><span class="tag">&lt;/<span class="title">jsp:forward</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>forward指令以下的内容不会被输出</p>
-<h2 id="动作指令inlcude">动作指令inlcude</h2><p>用于包含动态(.jsp)或静态文件(.html)</p>
-<h2 id="JavaBean要创建在src文件夹目录下">JavaBean要创建在src文件夹目录下</h2><h2 id="out对象">out对象</h2><h2 id="request对象">request对象</h2>
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/02/09/JavaScript笔记/">JavaScript笔记</a>
-            
-          </div>
-
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2015/02/02/JAVA笔记/">Java笔记</a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </div>
-  </div>
-
-
-
     
-      <div class="comments" id="comments">
-        
+      <div class="category-all-page">
+        <div class="category-all-title">
+            目前共計 10 個分類
+        </div>
+        <div class="category-all">
+          <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/css/">css</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/gis/">gis</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/jquery/">jquery</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/js/">js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/jsp/">jsp</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/markdown/">markdown</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/tips/">tips</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a><span class="category-list-count">5</span></li></ul>
+        </div>
       </div>
     
   </div>
@@ -235,15 +160,6 @@
   <div id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目錄
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            本站概覽
-          </li>
-        </ul>
       
 
       <div class="site-overview">
@@ -304,17 +220,6 @@
 
       </div>
 
-      
-        <div class="post-toc-wrap sidebar-panel-active">
-          <div class="post-toc-indicator-top post-toc-indicator"></div>
-          <div class="post-toc">
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#JSP指令和脚本元素"><span class="nav-number">1.</span> <span class="nav-text">JSP指令和脚本元素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编译后的文件所在目录"><span class="nav-number">2.</span> <span class="nav-text">编译后的文件所在目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目导出及部署有两种方式："><span class="nav-number">3.</span> <span class="nav-text">项目导出及部署有两种方式：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注释"><span class="nav-number">4.</span> <span class="nav-text">注释</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编译指令include"><span class="nav-number">5.</span> <span class="nav-text">编译指令include</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动作指令forward"><span class="nav-number">6.</span> <span class="nav-text">动作指令forward</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动作指令inlcude"><span class="nav-number">7.</span> <span class="nav-text">动作指令inlcude</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaBean要创建在src文件夹目录下"><span class="nav-number">8.</span> <span class="nav-text">JavaBean要创建在src文件夹目录下</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#out对象"><span class="nav-number">9.</span> <span class="nav-text">out对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#request对象"><span class="nav-number">10.</span> <span class="nav-text">request对象</span></a></li></ol></div>
-            
-          </div>
-          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
-        </div>
       
 
     </div>
@@ -377,145 +282,6 @@
 
 
   
-  
-<script type="text/javascript" src="/js/bootstrap.scrollspy.js" id="bootstrap.scrollspy.custom"></script>
-
-
-<script type="text/javascript" id="sidebar.toc.highlight">
-  $(document).ready(function () {
-    var tocSelector = '.post-toc';
-    var $tocSelector = $(tocSelector);
-    var activeCurrentSelector = '.active-current';
-
-    $tocSelector
-      .on('activate.bs.scrollspy', function () {
-        var $currentActiveElement = $(tocSelector + ' .active').last();
-
-        removeCurrentActiveClass();
-        $currentActiveElement.addClass('active-current');
-
-        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
-      })
-      .on('clear.bs.scrollspy', function () {
-        removeCurrentActiveClass();
-      });
-
-    function removeCurrentActiveClass () {
-      $(tocSelector + ' ' + activeCurrentSelector)
-        .removeClass(activeCurrentSelector.substring(1));
-    }
-
-    function processTOC () {
-      getTOCMaxHeight();
-      toggleTOCOverflowIndicators();
-    }
-
-    function getTOCMaxHeight () {
-      var $sidebarInner = $('.sidebar-inner');
-      var height = $('.sidebar').height() -
-                   $tocSelector.position().top -
-                   $('.post-toc-indicator-bottom').height();
-
-      $tocSelector.css('height', height);
-
-      return height;
-    }
-
-    function toggleTOCOverflowIndicators () {
-      tocOverflowIndicator(
-        '.post-toc-indicator-top',
-        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
-      );
-
-      tocOverflowIndicator(
-        '.post-toc-indicator-bottom',
-        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
-      )
-    }
-
-    $(document).on('sidebar.didShow', function () {
-      processTOC();
-    });
-
-    $('body').scrollspy({ target: tocSelector });
-    $(window).on('resize', function () {
-      if ( $('.sidebar').hasClass('sidebar-active') ) {
-        processTOC();
-      }
-    });
-
-    onScroll($tocSelector);
-
-    function onScroll (element) {
-      element.on('mousewheel DOMMouseScroll', function (event) {
-          var oe = event.originalEvent;
-          var delta = oe.wheelDelta || -oe.detail;
-          var self = this;
-
-          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
-          event.preventDefault();
-
-          toggleTOCOverflowIndicators();
-      });
-    }
-
-    function tocOverflowIndicator (indicator, action) {
-      $(indicator).velocity('stop').velocity({
-        opacity: action === 'show' ? 0.4 : 0
-      }, { duration: 100 });
-    }
-
-  });
-</script>
-
-
-  <script type="text/javascript" id="sidebar.nav">
-    $(document).ready(function () {
-      var html = $('html');
-
-      $('.sidebar-nav li').on('click', function () {
-        var item = $(this);
-        var activeTabClassName = 'sidebar-nav-active';
-        var activePanelClassName = 'sidebar-panel-active';
-        if (item.hasClass(activeTabClassName)) {
-          return;
-        }
-
-        var currentTarget = $('.' + activePanelClassName);
-        var target = $('.' + item.data('target'));
-
-        currentTarget.velocity('transition.slideUpOut', 200, function () {
-          target
-            .velocity('stop')
-            .velocity('transition.slideDownIn', 200)
-            .addClass(activePanelClassName);
-        });
-
-        item.siblings().removeClass(activeTabClassName);
-        item.addClass(activeTabClassName);
-      });
-
-      $('.post-toc a').on('click', function (e) {
-        e.preventDefault();
-        var offset = $(escapeSelector(this.getAttribute('href'))).offset().top;
-        html.velocity('stop').velocity('scroll', {
-          offset: offset  + 'px',
-          mobileHA: false
-        });
-      });
-
-      // Expand sidebar on post detail page by default, when post has a toc.
-      var $tocContent = $('.post-toc-content');
-      if (isDesktop() && CONFIG.sidebar === 'post') {
-        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
-          displaySidebar();
-        }
-      }
-    });
-  </script>
-
-
-
 
   <script type="text/javascript">
     $(document).ready(function () {
@@ -550,26 +316,6 @@
 
 
   
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:""};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-
 
   
 
