@@ -48,7 +48,7 @@
 
 
 
-  <title> 先总结一下搭建这个hexo博客的经验吧 // 前端青年 </title>
+  <title> OpenLayers+GeoServer入新坑 // 前端青年 </title>
 </head>
 
 <body>
@@ -128,7 +128,7 @@
           
           
             
-              先总结一下搭建这个hexo博客的经验吧
+              OpenLayers+GeoServer入新坑
             
           
         </h1>
@@ -136,14 +136,14 @@
 
       <div class="post-meta">
         <span class="post-time">
-          發表於 2015-01-25
+          發表於 2015-08-07
         </span>
 
         
           <span class="post-category">
             &nbsp; | &nbsp; 分類於
             
-              <a href="/categories/hexo/">hexo</a>
+              <a href="/categories/WebGIS/">WebGIS</a>
 
               
               
@@ -164,28 +164,34 @@
       
 
       
-        <p>终于把hexo学起来了，花了蛮多时间的。这个博客是用hexo框架搭建的，主题是<a href="https://github.com/hexojs/hexo-theme-light" target="_blank" rel="external">light</a>，更多主题请看<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">这里</a>。按照这位学长总结的<a href="http://zipperary.com/2013/05/28/hexo-guide-1/" target="_blank" rel="external">hexo系列教程</a>比较顺利地完成了博客的搭建。hexo是一个基于node.js的静态博客程序，可以方便的生成静态网页托管在github上。</p>
-<blockquote>
-<p>快速、简单且功能强大的 Node.js 博客框架。<br>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
-</blockquote>
-<a id="more"></a>
-<p>hexo是开源的框架，代码都是可以随便修改的，定制化高，可以按照自己的喜好做设定。然后<a href="http://zipperary.com/2013/05/28/hexo-guide-1/" target="_blank" rel="external">hexo系列教程</a>已经总结的很完整了，一共有5篇教程，环境配置还有具体的搭建过程都可以看这位学长写的文章。我就在这里补充一些我自己在搭建的过程中遇到的几个问题。</p>
-<h2 id="端口冲突"><strong>端口冲突</strong></h2><p>安装完依赖包后要执行<code>hexo generate</code>和<code>hexo server</code>这两个命令。可能会出现和我一样端口冲突的问题，解决办法就是直接修改<code>hexo\_config.yml</code>中的<code>port</code>的值，默认的是4000，随便改一个不会冲突的端口就行了。</p>
-<h2 id="设置ssh"><strong>设置ssh</strong></h2><p>我在把创建的Key添加到ssh-agent的时候，也就是执行这句命令<code>$ ssh-add ~/.ssh/id_rsa</code>的时候出现了如下的问题：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Could <span class="operator">not</span> <span class="built_in">open</span> <span class="operator">a</span> connection <span class="built_in">to</span> your authentication agent.</span><br></pre></td></tr></table></figure></p>
-<p>不要慌张，执行一下下面这句命令就解决了，至于这句话的作用我就不太理解了，希望诸位大神指点。<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>eval <span class="variable">$(</span>ssh-agent)</span><br></pre></td></tr></table></figure></p>
-<p>执行完之后会看到下面这句话，当然pid不一定是8988，总之出现这句话以后再执行<code>$ ssh-add ~/.ssh/id_rsa</code>的时候就成功了。　　<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">Agent</span> pid <span class="number">8988</span></span><br></pre></td></tr></table></figure></p>
-<p>然后下一个问题是要记得更改配置文件<code>hexo\_config.yml</code>里的deploy的设置。如下：repository用ssh的方式，不要用https的，不然每次都要输账号密码很麻烦。SSH格式的URL可以在自己github的项目上看到。<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: github</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:surongxiang/surongxiang.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
-<h2 id="添加个人简介模块"><strong>添加个人简介模块</strong></h2><p>在<code>hexo\themes\light\layout\_widget</code>目录下新建一个文件，名字自己起，比如<code>profile.ejs</code>。把下面的代码粘过去:<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"widget tag"</span>&gt;</span> //class不要删，其他内容自己改</span><br><span class="line"><span class="tag">&lt;<span class="title">h3</span> <span class="attribute">class</span>=<span class="value">"title"</span>&gt;</span>简介<span class="tag">&lt;/<span class="title">h3</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="title">ul</span> <span class="attribute">class</span>=<span class="value">"entry"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>Name: 苏荣祥<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>二次元: 虾米狼（喰种）<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>赫子: 羽赫<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>University: HFUT,Hefei<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>Grade: 三年级<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>QQ: 517530615<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://user.qzone.qq.com/1405013833/main"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span>工大开发者联盟QQ群: 294413005<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>widget的中文意思就是窗口小部件，所以想要自定义部件，直接在这个目录下自己写一个ejs格式的文件就行，完全兼容html。ejs是embedded javascript，从js文件中抽取出html结构，使代码结构清晰简洁易读。还有hexo使用的css不是.css格式的，而是.styl格式，百了下得知stylus是和less/sass类似的一个css processor，比原生的css更简洁一些。</p>
-<h2 id="注意事项"><strong>注意事项</strong></h2><ol>
-<li>每次修改本地文件后，需要<code>hexo generate</code>才能保存。</li>
-<li>每次使用命令时，都要在<code>hexo</code>目录下。即右键<code>hexo</code>文件夹，选择Git Bash。</li>
-<li>每次deploy前先清理一下缓存，不然会出现一些本地缓存的信息。比如已经删除的文章还可以看到。执行<code>hexo clean</code>命令清理缓存。包括你在本地调试的时候如果看到缓存信息，可以先clean一下，然后再重启server。</li>
-<li>写文章要用markdown写，要学习的话可以参考一下这篇文档<a href="http://code.wileam.com/markdown-syntax/" target="_blank" rel="external">markdown语法</a>，很简单易学，多写几篇博客练练手吧。</li>
-<li>简化的hexo命令行<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">g</span> == hexo <span class="keyword">generate</span> <span class="comment">//生成</span></span><br><span class="line">hexo <span class="keyword">d</span> == hexo deploy <span class="comment">//部署</span></span><br><span class="line">hexo s == hexo server <span class="comment">//开启本地服务器</span></span><br><span class="line">hexo <span class="keyword">n</span> == hexo new <span class="comment">//写文章</span></span><br></pre></td></tr></table></figure>
-</li>
+        <p>　　在公司实习，然后老板要求看一下OpenLayers和GeoServer，原来不是只有ArcGIS……发现新的WebGIS开发模式，记录一下。</p>
+<h2 id="一、发布一个Shapefile"><strong>一、发布一个Shapefile</strong></h2><ol>
+<li>首先创建一个工作区（Create a New Workspace）</li>
+<li>然后创建一个数据存储（Create a Data Store），注意要发布的数据放在GeoServer的Content/Java/data_dir/data目录下。</li>
+<li>创建一个图层（Create a Layer），Generate the layer’s bounding boxes by clicking the Compute from data and then Compute from Native bounds.</li>
+<li>转到Layer Preview界面查看发布的数据（Preview the Layer）</li>
 </ol>
-<h2 id="一点心得"><strong>一点心得</strong></h2><p>可能会有人觉得研究博客框架没什么意义，但是我觉得一方面研究这样的框架到更深层次的时候掌握了他的文档结构，理清逻辑关系对于自己开发框架是很有帮助的。另一方面hexo这么简便、这么美怎么能罢手！以后时常来这里更博客，记录一下自己的学习过程，也记录一下身边的琐事。最后，向各位大神看齐！明天整理markdown。</p>
+<p>参考教程：<a href="http://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html" target="_blank" rel="external">Publishing a Shapefile</a></p>
+<h2 id="二、Publishing_a_PostGIS_Table"><strong>二、Publishing a PostGIS Table</strong></h2><p>下面1~3步都是在Postgres的终端完成，就是先运行Postgres,然后点击Open psql。第四步开始往后都是在GeoServer中完成。</p>
+<ol>
+<li>Create a PostGIS database called “nyc”. This can be done with the following command line:<br><code>createdb -T template_postgis nyc</code></li>
+<li>Unzip nyc_buildings.zip to some location on the file system.放在桌面上。</li>
+<li>Import nyc_buildings.sql into the nyc database:<br><code>psql -f nyc_buildings.sql -d nyc</code><br>4.Create a Data Store</li>
+<li>Create a Layer</li>
+<li>Preview the Layer</li>
+</ol>
+<p>参考教程：<a href="http://docs.geoserver.org/latest/en/user/gettingstarted/postgis-quickstart/index.html" target="_blank" rel="external">Publishing a PostGIS Table</a></p>
+<h2 id="三、一些命令行"><strong>三、一些命令行</strong></h2><p>1.首先创建一个数据库，假设名字是abc：<br>createdb abc<br>2.然后进入数据库abc：<br>psql abc<br>3.查看score表的表结构信息：<br>\d score<br>4.退出PostgreSQL：\q<br>5.pg_dump abc &gt;abc.pgsql                 #将abc数据库备份到abc.pgsql文件里<br>6.The core postgis extension installs PostGIS geometry, geography, raster, spatial_ref_sys and all the functions and comments with a simple:</p>
+<p>CREATE EXTENSION postgis;</p>
+<p>psql -d [yourdatabase] -c “CREATE EXTENSION postgis;”</p>
+<p>Topology is packaged as a separate extension and installable with command:</p>
+<p>psql -d [yourdatabase] -c “CREATE EXTENSION postgis_topology;”</p>
+<p>If you plan to restore an old backup from prior versions in this new db, run:</p>
+<p>psql -d [yourdatabase] -f legacy.sql</p>
+<p>You can later run uninstall_legacy.sql to get rid of the deprecated functions after you are done with restoring and cleanup.</p>
+<p>7.For those running PostgreSQL 9.0 or who decided for some reason not to compile with raster support, or just are old-fashioned, here are longer more painful instructions for you:</p>
+<p>All the .sql files once installed will be installed in share/contrib/postgis-2.1 folder of your PostgreSQL install</p>
+<p>createdb yourdatabase<br>createlang plpgsql yourdatabase<br>psql -d yourdatabase -f postgis.sql<br>psql -d yourdatabase -f postgis_comments.sql<br>psql -d yourdatabase -f spatial_ref_sys.sql<br>psql -d yourdatabase -f rtpostgis.sql<br>psql -d yourdatabase -f raster_comments.sql<br>psql -d yourdatabase -f topology.sql<br>psql -d yourdatabase -f topology_comments.sql</p>
 
       
     </div>
@@ -197,11 +203,13 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/01/26/作为游客的一天/">作为游客的一天</a>
+              <a href="/2015/09/01/September/">September</a>
             
           </div>
 
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/07/16/武大LIESMARS-2015年优秀大学生暑期夏令营笔试题（仅供参考）/">武大LIESMARS 2015年优秀大学生暑期夏令营笔试面试</a>
             
           </div>
         </div>
@@ -225,7 +233,7 @@
         </div>
 
         
-        <div class="ds-thread" data-thread-key="2015/01/25/先总结一下搭建这个hexo的经验吧/" data-title="先总结一下搭建这个hexo博客的经验吧" data-url="http://surongxiang.github.io/2015/01/25/先总结一下搭建这个hexo的经验吧/"></div>
+        <div class="ds-thread" data-thread-key="2015/08/07/OpenLayers-GeoServer入新坑/" data-title="OpenLayers+GeoServer入新坑" data-url="http://surongxiang.github.io/2015/08/07/OpenLayers-GeoServer入新坑/"></div>
         <!-- 多说热评文章-->
         <p>热评文章</p>
         <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
@@ -321,7 +329,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#端口冲突"><span class="nav-number">1.</span> <span class="nav-text">端口冲突</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置ssh"><span class="nav-number">2.</span> <span class="nav-text">设置ssh</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加个人简介模块"><span class="nav-number">3.</span> <span class="nav-text">添加个人简介模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意事项"><span class="nav-number">4.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一点心得"><span class="nav-number">5.</span> <span class="nav-text">一点心得</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、发布一个Shapefile"><span class="nav-number">1.</span> <span class="nav-text">一、发布一个Shapefile</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、Publishing_a_PostGIS_Table"><span class="nav-number">2.</span> <span class="nav-text">二、Publishing a PostGIS Table</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、一些命令行"><span class="nav-number">3.</span> <span class="nav-text">三、一些命令行</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>

@@ -48,12 +48,12 @@
 
 
 
-  <title> 先总结一下搭建这个hexo博客的经验吧 // 前端青年 </title>
+  <title> 歸檔 // 前端青年 </title>
 </head>
 
 <body>
 <!--[if lte IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari." style='margin-left:auto;margin-right:auto;display: block;'/></a></div> <![endif]-->
-  <div class="container one-column page-post-detail">
+  <div class="container one-column  page-archive ">
     <div class="headband"></div>
 
     <div id="header" class="header">
@@ -116,119 +116,64 @@
         <div id="content" class="content">
           
 
-  <div id="posts" class="posts-expand">
+  <div id="posts" class="posts-collapse">
+    <span class="archive-move-on"></span>
+
+    <span class="archive-page-counter">
+      
+      
+       
+      
+      嗯..! 目前共計 21 篇文章。 繼續努力。
+    </span>
+
     
 
-  <div class="post post-type-normal ">
+      
+      
+      
+
+      
+        
+        <div class="collection-title">
+          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
+        </div>
+      
+      
+
+      
+
+  <div class="post post-type-normal">
     <div class="post-header">
 
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              先总结一下搭建这个hexo博客的经验吧
-            
-          
-        </h1>
-      
+      <div class="post-title">
+        
+            <a class="post-title-link" href="/2015/09/01/September/">
+              September
+            </a>
+        
+      </div>
 
       <div class="post-meta">
-        <span class="post-time">
-          發表於 2015-01-25
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分類於
-            
-              <a href="/categories/hexo/">hexo</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-        
+        <span class="post-time"> 09-01 </span>
       </div>
-    </div>
 
-    <div class="post-body">
-
-      
-      
-
-      
-        <p>终于把hexo学起来了，花了蛮多时间的。这个博客是用hexo框架搭建的，主题是<a href="https://github.com/hexojs/hexo-theme-light" target="_blank" rel="external">light</a>，更多主题请看<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">这里</a>。按照这位学长总结的<a href="http://zipperary.com/2013/05/28/hexo-guide-1/" target="_blank" rel="external">hexo系列教程</a>比较顺利地完成了博客的搭建。hexo是一个基于node.js的静态博客程序，可以方便的生成静态网页托管在github上。</p>
-<blockquote>
-<p>快速、简单且功能强大的 Node.js 博客框架。<br>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
-</blockquote>
-<a id="more"></a>
-<p>hexo是开源的框架，代码都是可以随便修改的，定制化高，可以按照自己的喜好做设定。然后<a href="http://zipperary.com/2013/05/28/hexo-guide-1/" target="_blank" rel="external">hexo系列教程</a>已经总结的很完整了，一共有5篇教程，环境配置还有具体的搭建过程都可以看这位学长写的文章。我就在这里补充一些我自己在搭建的过程中遇到的几个问题。</p>
-<h2 id="端口冲突"><strong>端口冲突</strong></h2><p>安装完依赖包后要执行<code>hexo generate</code>和<code>hexo server</code>这两个命令。可能会出现和我一样端口冲突的问题，解决办法就是直接修改<code>hexo\_config.yml</code>中的<code>port</code>的值，默认的是4000，随便改一个不会冲突的端口就行了。</p>
-<h2 id="设置ssh"><strong>设置ssh</strong></h2><p>我在把创建的Key添加到ssh-agent的时候，也就是执行这句命令<code>$ ssh-add ~/.ssh/id_rsa</code>的时候出现了如下的问题：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Could <span class="operator">not</span> <span class="built_in">open</span> <span class="operator">a</span> connection <span class="built_in">to</span> your authentication agent.</span><br></pre></td></tr></table></figure></p>
-<p>不要慌张，执行一下下面这句命令就解决了，至于这句话的作用我就不太理解了，希望诸位大神指点。<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>eval <span class="variable">$(</span>ssh-agent)</span><br></pre></td></tr></table></figure></p>
-<p>执行完之后会看到下面这句话，当然pid不一定是8988，总之出现这句话以后再执行<code>$ ssh-add ~/.ssh/id_rsa</code>的时候就成功了。　　<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">Agent</span> pid <span class="number">8988</span></span><br></pre></td></tr></table></figure></p>
-<p>然后下一个问题是要记得更改配置文件<code>hexo\_config.yml</code>里的deploy的设置。如下：repository用ssh的方式，不要用https的，不然每次都要输账号密码很麻烦。SSH格式的URL可以在自己github的项目上看到。<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: github</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:surongxiang/surongxiang.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
-<h2 id="添加个人简介模块"><strong>添加个人简介模块</strong></h2><p>在<code>hexo\themes\light\layout\_widget</code>目录下新建一个文件，名字自己起，比如<code>profile.ejs</code>。把下面的代码粘过去:<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"widget tag"</span>&gt;</span> //class不要删，其他内容自己改</span><br><span class="line"><span class="tag">&lt;<span class="title">h3</span> <span class="attribute">class</span>=<span class="value">"title"</span>&gt;</span>简介<span class="tag">&lt;/<span class="title">h3</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="title">ul</span> <span class="attribute">class</span>=<span class="value">"entry"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>Name: 苏荣祥<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>二次元: 虾米狼（喰种）<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>赫子: 羽赫<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>University: HFUT,Hefei<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>Grade: 三年级<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>QQ: 517530615<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://user.qzone.qq.com/1405013833/main"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span>工大开发者联盟QQ群: 294413005<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>widget的中文意思就是窗口小部件，所以想要自定义部件，直接在这个目录下自己写一个ejs格式的文件就行，完全兼容html。ejs是embedded javascript，从js文件中抽取出html结构，使代码结构清晰简洁易读。还有hexo使用的css不是.css格式的，而是.styl格式，百了下得知stylus是和less/sass类似的一个css processor，比原生的css更简洁一些。</p>
-<h2 id="注意事项"><strong>注意事项</strong></h2><ol>
-<li>每次修改本地文件后，需要<code>hexo generate</code>才能保存。</li>
-<li>每次使用命令时，都要在<code>hexo</code>目录下。即右键<code>hexo</code>文件夹，选择Git Bash。</li>
-<li>每次deploy前先清理一下缓存，不然会出现一些本地缓存的信息。比如已经删除的文章还可以看到。执行<code>hexo clean</code>命令清理缓存。包括你在本地调试的时候如果看到缓存信息，可以先clean一下，然后再重启server。</li>
-<li>写文章要用markdown写，要学习的话可以参考一下这篇文档<a href="http://code.wileam.com/markdown-syntax/" target="_blank" rel="external">markdown语法</a>，很简单易学，多写几篇博客练练手吧。</li>
-<li>简化的hexo命令行<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">g</span> == hexo <span class="keyword">generate</span> <span class="comment">//生成</span></span><br><span class="line">hexo <span class="keyword">d</span> == hexo deploy <span class="comment">//部署</span></span><br><span class="line">hexo s == hexo server <span class="comment">//开启本地服务器</span></span><br><span class="line">hexo <span class="keyword">n</span> == hexo new <span class="comment">//写文章</span></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="一点心得"><strong>一点心得</strong></h2><p>可能会有人觉得研究博客框架没什么意义，但是我觉得一方面研究这样的框架到更深层次的时候掌握了他的文档结构，理清逻辑关系对于自己开发框架是很有帮助的。另一方面hexo这么简便、这么美怎么能罢手！以后时常来这里更博客，记录一下自己的学习过程，也记录一下身边的琐事。最后，向各位大神看齐！明天整理markdown。</p>
-
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/01/26/作为游客的一天/">作为游客的一天</a>
-            
-          </div>
-
-          <div class="post-nav-next post-nav-item">
-            
-          </div>
-        </div>
-      
-
-      
-      
     </div>
   </div>
 
 
 
     
-      <div class="comments" id="comments">
-        
-      </div>
-    
+
   </div>
+
+  
+
+
 
 
         </div>
 
-        
-        <div class="ds-thread" data-thread-key="2015/01/25/先总结一下搭建这个hexo的经验吧/" data-title="先总结一下搭建这个hexo博客的经验吧" data-url="http://surongxiang.github.io/2015/01/25/先总结一下搭建这个hexo的经验吧/"></div>
-        <!-- 多说热评文章-->
-        <p>热评文章</p>
-        <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
         
       </div>
 
@@ -246,15 +191,6 @@
   <div id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目錄
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            本站概覽
-          </li>
-        </ul>
       
 
       <div class="site-overview">
@@ -316,17 +252,6 @@
       </div>
 
       
-        <div class="post-toc-wrap sidebar-panel-active">
-          <div class="post-toc-indicator-top post-toc-indicator"></div>
-          <div class="post-toc">
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#端口冲突"><span class="nav-number">1.</span> <span class="nav-text">端口冲突</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置ssh"><span class="nav-number">2.</span> <span class="nav-text">设置ssh</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加个人简介模块"><span class="nav-number">3.</span> <span class="nav-text">添加个人简介模块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意事项"><span class="nav-number">4.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一点心得"><span class="nav-number">5.</span> <span class="nav-text">一点心得</span></a></li></ol></div>
-            
-          </div>
-          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
-        </div>
-      
 
 
     </div>
@@ -373,6 +298,12 @@
 
   
   
+  
+    <script type="text/javascript">
+      postMotionOptions = {stagger: 100, drag: true};
+    </script>
+  
+
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -392,143 +323,10 @@
 
   
   
-<script type="text/javascript" src="/js/bootstrap.scrollspy.js" id="bootstrap.scrollspy.custom"></script>
-
-
-<script type="text/javascript" id="sidebar.toc.highlight">
-  $(document).ready(function () {
-    var tocSelector = '.post-toc';
-    var $tocSelector = $(tocSelector);
-    var activeCurrentSelector = '.active-current';
-
-    $tocSelector
-      .on('activate.bs.scrollspy', function () {
-        var $currentActiveElement = $(tocSelector + ' .active').last();
-
-        removeCurrentActiveClass();
-        $currentActiveElement.addClass('active-current');
-
-        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
-      })
-      .on('clear.bs.scrollspy', function () {
-        removeCurrentActiveClass();
-      });
-
-    function removeCurrentActiveClass () {
-      $(tocSelector + ' ' + activeCurrentSelector)
-        .removeClass(activeCurrentSelector.substring(1));
-    }
-
-    function processTOC () {
-      getTOCMaxHeight();
-      toggleTOCOverflowIndicators();
-    }
-
-    function getTOCMaxHeight () {
-      var $sidebarInner = $('.sidebar-inner');
-      var height = $('.sidebar').height() -
-                   $tocSelector.position().top -
-                   $('.post-toc-indicator-bottom').height();
-
-      $tocSelector.css('height', height);
-
-      return height;
-    }
-
-    function toggleTOCOverflowIndicators () {
-      tocOverflowIndicator(
-        '.post-toc-indicator-top',
-        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
-      );
-
-      tocOverflowIndicator(
-        '.post-toc-indicator-bottom',
-        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
-      )
-    }
-
-    $(document).on('sidebar.didShow', function () {
-      processTOC();
-    });
-
-    $('body').scrollspy({ target: tocSelector });
-    $(window).on('resize', function () {
-      if ( $('.sidebar').hasClass('sidebar-active') ) {
-        processTOC();
-      }
-    });
-
-    onScroll($tocSelector);
-
-    function onScroll (element) {
-      element.on('mousewheel DOMMouseScroll', function (event) {
-          var oe = event.originalEvent;
-          var delta = oe.wheelDelta || -oe.detail;
-          var self = this;
-
-          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
-          event.preventDefault();
-
-          toggleTOCOverflowIndicators();
-      });
-    }
-
-    function tocOverflowIndicator (indicator, action) {
-      $(indicator).velocity('stop').velocity({
-        opacity: action === 'show' ? 0.4 : 0
-      }, { duration: 100 });
-    }
-
-  });
-</script>
-
-
-  <script type="text/javascript" id="sidebar.nav">
-    $(document).ready(function () {
-      var html = $('html');
-
-      $('.sidebar-nav li').on('click', function () {
-        var item = $(this);
-        var activeTabClassName = 'sidebar-nav-active';
-        var activePanelClassName = 'sidebar-panel-active';
-        if (item.hasClass(activeTabClassName)) {
-          return;
-        }
-
-        var currentTarget = $('.' + activePanelClassName);
-        var target = $('.' + item.data('target'));
-
-        currentTarget.velocity('transition.slideUpOut', 200, function () {
-          target
-            .velocity('stop')
-            .velocity('transition.slideDownIn', 200)
-            .addClass(activePanelClassName);
-        });
-
-        item.siblings().removeClass(activeTabClassName);
-        item.addClass(activeTabClassName);
-      });
-
-      $('.post-toc a').on('click', function (e) {
-        e.preventDefault();
-        var offset = $(escapeSelector(this.getAttribute('href'))).offset().top;
-        html.velocity('stop').velocity('scroll', {
-          offset: offset  + 'px',
-          mobileHA: false
-        });
-      });
-
-      // Expand sidebar on post detail page by default, when post has a toc.
-      var $tocContent = $('.post-toc-content');
-      if (isDesktop() && CONFIG.sidebar === 'post') {
-        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
-          displaySidebar();
-        }
-      }
-    });
-  </script>
-
-
+    <script type="text/javascript" id="motion.page.archive">
+      $('.archive-year').velocity('transition.slideLeftIn');
+    </script>
+  
 
 
   <script type="text/javascript">
@@ -564,27 +362,6 @@
 
 
   
-      
-
-      <script type="text/javascript">
-      var duoshuoQuery = {short_name:"gisersrx"};
-        (function() {
-            var ds = document.createElement('script');
-            ds.type = 'text/javascript';ds.async = true;
-            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0]
-             || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
-        </script>
-
-    
-  
-
-  
-
-
-
 
   
   
