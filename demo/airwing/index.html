@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>云翎</title>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.8.2/css/ol.css" type="text/css">
+    <script src="http://openlayers.org/en/v3.8.2/build/ol.js"></script>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <button class="btn btn-primary" id="btn-measure" type="button">开始测量</button>
+        <button class="btn btn-primary" id="btn-measureclose" type="button">关闭测量</button>
+        <button class="btn btn-primary" id="btn-measureclear" type="button">清除图层</button>
+        经度：<input type="text" id="lot">纬度：<input type="text" id="lat">
+        <button class="btn" id="btn-1">定位</button>
+        <form class="form-inline">
+            <label>Geometry type &nbsp;</label>
+            <select id="type">
+                <option value="length">Line</option>
+                <option value="polygon">Polygon</option>
+                <option value="circle">Circle</option>
+            </select>
+            <label class="checkbox"><input type="checkbox" id="geodesic"/>use geodesic measures</label>
+        </form>
+        <div class="span12">
+            <div id="map" class="map"></div>
+        </div>
+    </div>
+</div>
+<script src="script/app.js"></script>
+<script src="script/measurement.js"></script>
+</body>
+</html>
