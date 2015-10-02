@@ -48,12 +48,12 @@
 
 
 
-  <title> 分類: css // 前端青年 </title>
+  <title> 歸檔 // 前端青年 </title>
 </head>
 
 <body>
 <!--[if lte IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari." style='margin-left:auto;margin-right:auto;display: block;'/></a></div> <![endif]-->
-  <div class="container one-column ">
+  <div class="container one-column  page-archive ">
     <div class="headband"></div>
 
     <div id="header" class="header">
@@ -117,14 +117,30 @@
           
 
   <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        css
-        <small>分類</small>
-      </h2>
-    </div>
+    <span class="archive-move-on"></span>
+
+    <span class="archive-page-counter">
+      
+      
+       
+      
+      嗯..! 目前共計 23 篇文章。 繼續努力。
+    </span>
 
     
+
+      
+      
+      
+
+      
+        
+        <div class="collection-title">
+          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
+        </div>
+      
+      
+
       
 
   <div class="post post-type-normal">
@@ -132,65 +148,23 @@
 
       <div class="post-title">
         
-            <a class="post-title-link" href="/2015/03/09/女生节祝福动画/">
-              女生节祝福动画
+            <a class="post-title-link" href="/2015/10/02/关于各浏览器CSS百分比的有效位数/">
+              关于各浏览器CSS百分比的有效位数
             </a>
         
       </div>
 
       <div class="post-meta">
-        <span class="post-time"> 03-09 </span>
+        <span class="post-time"> 10-02 </span>
       </div>
 
     </div>
   </div>
 
 
-    
-      
-
-  <div class="post post-type-normal">
-    <div class="post-header">
-
-      <div class="post-title">
-        
-            <a class="post-title-link" href="/2015/03/06/幽灵按钮/">
-              幽灵按钮
-            </a>
-        
-      </div>
-
-      <div class="post-meta">
-        <span class="post-time"> 03-06 </span>
-      </div>
-
-    </div>
-  </div>
-
 
     
-      
 
-  <div class="post post-type-normal">
-    <div class="post-header">
-
-      <div class="post-title">
-        
-            <a class="post-title-link" href="/2015/01/31/练习布局/">
-              练习布局
-            </a>
-        
-      </div>
-
-      <div class="post-meta">
-        <span class="post-time"> 01-31 </span>
-      </div>
-
-    </div>
-  </div>
-
-
-    
   </div>
 
   
@@ -348,6 +322,12 @@
 
 
   
+  
+    <script type="text/javascript" id="motion.page.archive">
+      $('.archive-year').velocity('transition.slideLeftIn');
+    </script>
+  
+
 
   <script type="text/javascript">
     $(document).ready(function () {
