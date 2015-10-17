@@ -26,7 +26,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="前端青年" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="五世三生" type="application/atom+xml" />
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-  <title> 前端青年 </title>
+  <title> 五世三生 </title>
 </head>
 
 <body>
@@ -66,7 +66,7 @@
       <span class="logo">
         <i class="icon-logo"></i>
       </span>
-      <span class="site-title">前端青年</span>
+      <span class="site-title">五世三生</span>
   </a>
   <span class="logo-line-after"><i></i></span>
 </h1>
@@ -130,8 +130,8 @@
           
           
             
-              <a class="post-title-link" href="/2015/10/02/关于各浏览器CSS百分比的有效位数/">
-                关于各浏览器CSS百分比的有效位数
+              <a class="post-title-link" href="/2015/10/17/Ajax学习/">
+                Ajax学习
               </a>
             
           
@@ -140,9 +140,20 @@
 
       <div class="post-meta">
         <span class="post-time">
-          發表於 2015-10-02
+          發表於 2015-10-17
         </span>
 
+        
+          <span class="post-category">
+            &nbsp; | &nbsp; 分類於
+            
+              <a href="/categories/ajax/">ajax</a>
+
+              
+              
+
+            
+          </span>
         
 
         
@@ -158,7 +169,75 @@
 
       
         
-          <p><a href="http://i11.tietuku.com/22d26bb6e0c0b306.png" target="_blank" rel="external"></a></p>
+          <h1 id="简介">简介</h1><p>　　Ajax的全称是Asynchronous Javascript And XML，即异步JavaScript和XML。Ajax不是一门编程语言，而是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。传统的网页（不使用Ajax）如果需要更新内容，必须重载整个网页页面。<br><img src="http://i13.tietuku.com/b1891963025938dd.png" alt="example"><br>　　学习Ajax只需要具备HTML,CSS,Javascript的基础知识就行。</p>
+<h1 id="同步v-s-异步">同步v.s.异步</h1><p>　　先来了解一下同步和异步的概念，同步的机制是：提交请求-&gt;等待服务器处理-&gt;处理完毕返回，这个期间客户端浏览器不能干任何事。<br>　　<img src="http://i13.tietuku.com/ebb6d76f7e9033cc.png" alt="同步"><br>　　异步的机制则是：请求通过事件触发-&gt;服务器处理（这时浏览器仍然可以作其他事情）-&gt;处理完毕返回给客户端。<br><img src="http://i13.tietuku.com/008a19aa43f672b6.png" alt="异步"><br>　　在Ajax中有一个非常重要的对象叫做XMLHttpRequest，也是完成异步请求的主要对象，它具有一些常用的方法，比如open(method,url,async),send()。所有主流浏览器均支持这个对象，兼容IE6以上版本。
+　　</p>
+<h1 id="HTTP请求">HTTP请求</h1><h3 id="一个完整的HTTP请求过程，通常包括下面7个步骤：">一个完整的HTTP请求过程，通常包括下面7个步骤：</h3><ol>
+<li>建立TCP连接</li>
+<li>浏览器向服务器发送请求命令</li>
+<li>浏览器发送请求头信息</li>
+<li>服务器应答</li>
+<li>服务器发送应答头信息</li>
+<li>服务器向浏览器发送数据</li>
+<li>服务器关闭TCP连接</li>
+</ol>
+<h3 id="一个HTTP请求一般由四个部分组成：">一个HTTP请求一般由四个部分组成：</h3><ol>
+<li>HTTP请求的方法或动作，GET/POST</li>
+<li>正在请求的URL</li>
+<li>请求头，包含一些客户端环境信息，身份验证信息</li>
+<li>请求体，也就是请求正文，请求正文可以包含客户提交查询字符串信息，表单信息等</li>
+</ol>
+<h3 id="两种请求方式：">两种请求方式：</h3><p>1.GET：<br>　　一般用于获取信息，使用URL传递参数，对所发送信息的数量有限，一般在2000个字符以内。不安全性体现在URL传参，任何人都可以看到参数信息，所以在进行一些与服务器私密交互的操作时不可以使用该方式。安全性体现在，一般发送GET请求是为了获取信息，而不是修改信息，所以不会对数据库的数据有威胁。<br>2.POST：<br>　　一般用于修改服务器上的资源，对所发送的信息数量无限制。不在URL中，不可见，POST的内容在请求体中，安全性高。<br>　　一般用GET请求进行查询操作，POST请求进行增、删、改操作。</p>
+<h1 id="HTTP响应">HTTP响应</h1><h3 id="一个HTTP一般由三个部分组成：">一个HTTP一般由三个部分组成：</h3><p>　　1. 一个数字和文字组成的状态码，用来显示请求是成功还是失败<br>　　2. 响应头，响应头也和请求头一样包含许多有用的信息，例如服务器类型、日期时间、内容类型和长度等。<br>　　3. 响应体，也就是响应正文。</p>
+<h3 id="HTTP状态码由三位数字构成，其中首位数字定义了状态码的类型：">HTTP状态码由三位数字构成，其中首位数字定义了状态码的类型：</h3><ol>
+<li>1XX：信息类，表示收到Web浏览器请求，正在进一步处理中</li>
+<li>2XX：成功，表示用户请求被正确接收，理解和处理，例如：200 OK</li>
+<li>3XX：重定向，表示请求没有成功，客户必须采取进一步的动作</li>
+<li>4XX：客户端错误，表示客户端提交的请求有错误，例如：404 NOT FOUND</li>
+<li>5XX：服务器错误，表示服务器不能完成对请求的处理，例如：500</li>
+</ol>
+<h1 id="XMLHttpRequest">XMLHttpRequest</h1><h3 id="发送请求">发送请求</h3><pre><code><span class="comment">//eg1</span>
+request.open<span class="params">(<span class="string">"GET"</span>,<span class="string">"get.php"</span>,<span class="literal">true</span>)</span>;
+request.send<span class="params">()</span>;
+<span class="comment">//eg2</span>
+request.open<span class="params">(<span class="string">"POST"</span>,<span class="string">"create.php"</span>,<span class="literal">true</span>)</span>;
+request.setRequestHeader<span class="params">(<span class="string">"Content-type"</span>,<span class="string">"application/x-www-form-urlencoded"</span>)</span>;
+request.send<span class="params">(<span class="string">"name=peter&amp;sex=male"</span>)</span>;
+</code></pre><h3 id="取得响应">取得响应</h3><p>一些方法<br>responseText：获得字符串形式的响应数据<br>responseXML：获得XML形式的响应数据<br>status和statusText：以数字和文本形式返回HTTP状态码<br>getAllResponseHeader()：获取所有的响应报头<br>getResponseHeader()：查询响应中的某个字段值</p>
+<p>readyState属性<br>0：请求未初始化，open还没有调用<br>1：服务器连接已建立，open已经调用了<br>2：请求已接收，也就是接收到头信息了<br>3：请求处理中，也就是接收到响应主体了<br>4：请求已完成，且响应已就绪，也就是响应完成了</p>
+<pre><code>var request = new XMLHttpRequest<span class="params">()</span>;
+request.open<span class="params">(<span class="string">"GET"</span>,<span class="string">"get.php"</span>,<span class="literal">true</span>)</span>;
+request.send<span class="params">()</span>;
+request.onreadystatechange = <span class="function"><span class="keyword">function</span><span class="params">()</span>{</span>
+    <span class="keyword">if</span><span class="params">(request.readyState===<span class="number">4</span> &amp;&amp; request.status===<span class="number">200</span>)</span>{
+        <span class="comment">//do something... request.responseText</span>
+    }
+}
+</code></pre><h1 id="JSON">JSON</h1><p>　　Javascript对象表示法（JavaScript Object Notation），Json是存储和交换文本信息的语法，类似XML。它采用键值对的方式来组织，易于人们阅读和编写，同时也易于机器解析和生成。Json是独立于语言的，也就是说不管什么语言，都可以解析Json，只需要按照Json的规则来就行。<br>　　Json与XML比较：Json的长度和XML格式比起来很短小，Json读写速度更快，Json可以使用Javascript内建的方法直接进行解析，转换成Javascript对象，非常方便。<br>　　Json的书写格式是：名称/值对。<br>　　名称/值对组合中的名称写在前面（在双引号中），值对写在后面（同样在双引号中），中间用冒号隔开：比如“name”:”peter”<br>　　Json的值可以是以下类型：数字、字符串、布尔值、数组、对象、null。</p>
+<pre><code><span class="comment">//eg</span>
+{
+    <span class="string">"staff"</span>:[
+        {<span class="string">"name"</span>:<span class="string">"peter"</span>,<span class="string">"age"</span>:<span class="string">"70"</span>},
+        {<span class="string">"name"</span>:<span class="string">"tom"</span>,<span class="string">"age"</span>:<span class="string">"35"</span>},
+        {<span class="string">"name"</span>:<span class="string">"jim"</span>,<span class="string">"age"</span>:<span class="string">"14"</span>}
+    ]
+}
+</code></pre><p>　　推荐一个Json的<a href="http://json.cn/" target="_blank" rel="external">在线解析工具</a>，可以解析json并验证格式是否有误。</p>
+<h1 id="jQuery_ajax()">jQuery ajax()</h1><p>　　一般我们在写Ajax的时候已经不采用原生的写法了，因为原生的写法比较复杂，不灵活，jQuery封装的ajax()方法非常简便，使用时只需要将jquery.js文件引入进来即可。</p>
+<h3 id="jQuery-ajax([setting])">jQuery.ajax([setting])</h3><p>type：类型，“POST”或”GET”，默认为“GET”<br>url：发送请求的地址<br>data：是一个对象，连同请求发送到服务器的数据<br>dataType：预期服务器返回的数据类型。如果不指定，jQuery将自动根据HTTP包MIME信息来智能判断，一般我们采用json格式，可以设置为“json”<br>success：是一个方法，请求成功后的回调函数。传入返回后的数据，以及包含成功代码的字符串<br>error：是一个方法，请求失败时调用此函数。传入XMLHttpRequest对象。</p>
+<h1 id="跨域">跨域</h1><h3 id="一个域名地址的组成：">一个域名地址的组成：</h3><p><img src="http://i13.tietuku.com/12e721a1310ced94.png" alt="域名组成"><br>　　当协议、子域名、主域名、端口号任意一个不同时，都算作不同域。不同域之间相互请求资源，就算作“跨域”。
+　　</p>
+<h3 id="跨域-1">跨域</h3><p>　　Javascript出于安全方面的考虑，不允许跨域调用其他页面的对象。什么是跨域呢，简单地理解就是因为javascript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com域名下的对象。<br><img src="http://i13.tietuku.com/07b8d9e17da124d2.png" alt="跨域"></p>
+<h3 id="解决跨域的方法">解决跨域的方法</h3><ol>
+<li>通过在同域名的web服务器端创建一个代理（略）</li>
+<li>JSONP<br>　　局限性：只支持GET请求，不支持POST请求。</li>
+<li>XHR2<br>　　HTML5提供的XMLHttpRequest Level2已经实现了跨域访问以及其他的一些新功能，IE10以下不支持。在服务器端修改接口，加入下面的代码：<br> header(‘Access-Control-Allow-Origin:*’);<br> header(‘Access-Control-Allow-Methods:POST,GET’);</li>
+</ol>
+<h1 id="参考阅读">参考阅读</h1><ol>
+<li><a href="http://www.imooc.com/learn/250" target="_blank" rel="external">慕课网Ajax教程</a></li>
+<li><a href="http://www.w3school.com.cn/jquery/ajax_ajax.asp" target="_blank" rel="external">jQuery ajax - ajax()方法</a></li>
+<li><a href="http://www.cnblogs.com/2050/p/3191744.html" target="_blank" rel="external">js中几种实用的跨域方法原理详解</a></li>
+</ol>
 
         
       
@@ -896,8 +975,8 @@
 
       <div class="site-overview">
         <div class="site-author motion-element">
-          <img class="site-author-image" src="http://i13.tietuku.com/a6a1c0d99e8afc3b.jpg" alt="Surongxiang" />
-          <p class="site-author-name">Surongxiang</p>
+          <img class="site-author-image" src="http://i13.tietuku.com/a6a1c0d99e8afc3b.jpg" alt="surongxiang" />
+          <p class="site-author-name">surongxiang</p>
         </div>
         <p class="site-description motion-element">苏荣祥的个人博客</p>
         <div class="site-state motion-element">
@@ -910,7 +989,7 @@
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">分類</span>
               </a>
           </div>
@@ -972,7 +1051,7 @@
   <span class="with-love">
     <i class="icon-heart"></i>
   </span>
-  <span class="author">Surongxiang</span>
+  <span class="author">surongxiang</span>
 </div>
 
 <div class="powered-by">
