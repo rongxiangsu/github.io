@@ -1087,7 +1087,7 @@ input.menu-search-input {
   position: relative;
   padding: 20px 10px;
   color: #999;
-  text-align: center;
+  text-align: left !important;
 }
 .site-author-image {
   display: block;
@@ -1169,7 +1169,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0ab06c;
+  background: #454ecf;
 }
 .sidebar-nav {
   margin: 0;

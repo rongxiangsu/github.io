@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://surongxiang.github.io/"/>
-  <updated>2015-10-17T13:12:57.000Z</updated>
+  <updated>2015-10-17T13:42:58.000Z</updated>
   <id>http://surongxiang.github.io/</id>
   
   <author>
@@ -19,11 +19,11 @@
     <link href="http://surongxiang.github.io/2015/10/17/Ajax%E5%AD%A6%E4%B9%A0/"/>
     <id>http://surongxiang.github.io/2015/10/17/Ajax学习/</id>
     <published>2015-10-17T13:12:13.000Z</published>
-    <updated>2015-10-17T13:12:57.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="简介">简介</h1><p>　　Ajax的全称是Asynchronous Javascript And XML，即异步JavaScript和XML。Ajax不是一门编程语言，而是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。传统的网页（不使用Ajax）如果需要更新内容，必须重载整个网页页面。<br><img src="http://i13.tietuku.com/b1891963025938dd.png" alt="example"><br>　　学习Ajax只需要具备HTML,CSS,Javascript的基础知识就行。</p>
-<h1 id="同步v-s-异步">同步v.s.异步</h1><p>　　先来了解一下同步和异步的概念，同步的机制是：提交请求-&gt;等待服务器处理-&gt;处理完毕返回，这个期间客户端浏览器不能干任何事。<br>　　<img src="http://i13.tietuku.com/ebb6d76f7e9033cc.png" alt="同步"><br>　　异步的机制则是：请求通过事件触发-&gt;服务器处理（这时浏览器仍然可以作其他事情）-&gt;处理完毕返回给客户端。<br><img src="http://i13.tietuku.com/008a19aa43f672b6.png" alt="异步"><br>　　在Ajax中有一个非常重要的对象叫做XMLHttpRequest，也是完成异步请求的主要对象，它具有一些常用的方法，比如open(method,url,async),send()。所有主流浏览器均支持这个对象，兼容IE6以上版本。
-　　</p>
-<h1 id="HTTP请求">HTTP请求</h1><h3 id="一个完整的HTTP请求过程，通常包括下面7个步骤：">一个完整的HTTP请求过程，通常包括下面7个步骤：</h3><ol>
+    <updated>2015-10-17T13:42:58.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="一、简介">一、简介</h1><p>　　Ajax的全称是Asynchronous Javascript And XML，即异步JavaScript和XML。Ajax不是一门编程语言，而是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。传统的网页（不使用Ajax）如果需要更新内容，必须重载整个网页页面。<br><img src="http://i13.tietuku.com/b1891963025938dd.png" alt="example"><br>　　学习Ajax只需要具备HTML,CSS,Javascript的基础知识就行。<br><a id="more"></a></p>
+<h1 id="二、同步v-s-异步">二、同步v.s.异步</h1><p>　　先来了解一下同步和异步的概念，同步的机制是：提交请求-&gt;等待服务器处理-&gt;处理完毕返回，这个期间客户端浏览器不能干任何事。<br>　　<img src="http://i13.tietuku.com/ebb6d76f7e9033cc.png" alt="同步"><br>　　异步的机制则是：请求通过事件触发-&gt;服务器处理（这时浏览器仍然可以作其他事情）-&gt;处理完毕返回给客户端。<br><img src="http://i13.tietuku.com/008a19aa43f672b6.png" alt="异步"><br>　　在Ajax中有一个非常重要的对象叫做XMLHttpRequest，也是完成异步请求的主要对象，它具有一些常用的方法，比如open(method,url,async),send()。所有主流浏览器均支持这个对象，兼容IE6以上版本。</p>
+<h1 id="三、HTTP请求">三、HTTP请求</h1><p><strong>一个完整的HTTP请求过程，通常包括下面7个步骤</strong></p>
+<ol>
 <li>建立TCP连接</li>
 <li>浏览器向服务器发送请求命令</li>
 <li>浏览器发送请求头信息</li>
@@ -32,30 +32,32 @@
 <li>服务器向浏览器发送数据</li>
 <li>服务器关闭TCP连接</li>
 </ol>
-<h3 id="一个HTTP请求一般由四个部分组成：">一个HTTP请求一般由四个部分组成：</h3><ol>
+<p><strong>一个HTTP请求一般由四个部分组成</strong></p>
+<ol>
 <li>HTTP请求的方法或动作，GET/POST</li>
 <li>正在请求的URL</li>
 <li>请求头，包含一些客户端环境信息，身份验证信息</li>
 <li>请求体，也就是请求正文，请求正文可以包含客户提交查询字符串信息，表单信息等</li>
 </ol>
-<h3 id="两种请求方式：">两种请求方式：</h3><p>1.GET：<br>　　一般用于获取信息，使用URL传递参数，对所发送信息的数量有限，一般在2000个字符以内。不安全性体现在URL传参，任何人都可以看到参数信息，所以在进行一些与服务器私密交互的操作时不可以使用该方式。安全性体现在，一般发送GET请求是为了获取信息，而不是修改信息，所以不会对数据库的数据有威胁。<br>2.POST：<br>　　一般用于修改服务器上的资源，对所发送的信息数量无限制。不在URL中，不可见，POST的内容在请求体中，安全性高。<br>　　一般用GET请求进行查询操作，POST请求进行增、删、改操作。</p>
-<h1 id="HTTP响应">HTTP响应</h1><h3 id="一个HTTP一般由三个部分组成：">一个HTTP一般由三个部分组成：</h3><p>　　1. 一个数字和文字组成的状态码，用来显示请求是成功还是失败<br>　　2. 响应头，响应头也和请求头一样包含许多有用的信息，例如服务器类型、日期时间、内容类型和长度等。<br>　　3. 响应体，也就是响应正文。</p>
-<h3 id="HTTP状态码由三位数字构成，其中首位数字定义了状态码的类型：">HTTP状态码由三位数字构成，其中首位数字定义了状态码的类型：</h3><ol>
+<p><strong>两种请求方式</strong><br>1.GET：<br>　　一般用于获取信息，使用URL传递参数，对所发送信息的数量有限，一般在2000个字符以内。不安全性体现在URL传参，任何人都可以看到参数信息，所以在进行一些与服务器私密交互的操作时不可以使用该方式。安全性体现在，一般发送GET请求是为了获取信息，而不是修改信息，所以不会对数据库的数据有威胁。<br>2.POST：<br>　　一般用于修改服务器上的资源，对所发送的信息数量无限制。不在URL中，不可见，POST的内容在请求体中，安全性高。<br>　　一般用GET请求进行查询操作，POST请求进行增、删、改操作。</p>
+<h1 id="四、HTTP响应">四、HTTP响应</h1><p><strong>一个HTTP一般由三个部分组成</strong><br>　　1. 一个数字和文字组成的状态码，用来显示请求是成功还是失败<br>　　2. 响应头，响应头也和请求头一样包含许多有用的信息，例如服务器类型、日期时间、内容类型和长度等。<br>　　3. 响应体，也就是响应正文。</p>
+<p><strong>HTTP状态码由三位数字构成，其中首位数字定义了状态码的类型</strong></p>
+<ol>
 <li>1XX：信息类，表示收到Web浏览器请求，正在进一步处理中</li>
 <li>2XX：成功，表示用户请求被正确接收，理解和处理，例如：200 OK</li>
 <li>3XX：重定向，表示请求没有成功，客户必须采取进一步的动作</li>
 <li>4XX：客户端错误，表示客户端提交的请求有错误，例如：404 NOT FOUND</li>
 <li>5XX：服务器错误，表示服务器不能完成对请求的处理，例如：500</li>
 </ol>
-<h1 id="XMLHttpRequest">XMLHttpRequest</h1><h3 id="发送请求">发送请求</h3><pre><code><span class="comment">//eg1</span>
+<h1 id="五、XMLHttpRequest">五、XMLHttpRequest</h1><h3 id="发送请求">发送请求</h3><pre><code><span class="comment">//eg1</span>
 request.open<span class="params">(<span class="string">"GET"</span>,<span class="string">"get.php"</span>,<span class="literal">true</span>)</span>;
 request.send<span class="params">()</span>;
 <span class="comment">//eg2</span>
 request.open<span class="params">(<span class="string">"POST"</span>,<span class="string">"create.php"</span>,<span class="literal">true</span>)</span>;
 request.setRequestHeader<span class="params">(<span class="string">"Content-type"</span>,<span class="string">"application/x-www-form-urlencoded"</span>)</span>;
 request.send<span class="params">(<span class="string">"name=peter&amp;sex=male"</span>)</span>;
-</code></pre><h3 id="取得响应">取得响应</h3><p>一些方法<br>responseText：获得字符串形式的响应数据<br>responseXML：获得XML形式的响应数据<br>status和statusText：以数字和文本形式返回HTTP状态码<br>getAllResponseHeader()：获取所有的响应报头<br>getResponseHeader()：查询响应中的某个字段值</p>
-<p>readyState属性<br>0：请求未初始化，open还没有调用<br>1：服务器连接已建立，open已经调用了<br>2：请求已接收，也就是接收到头信息了<br>3：请求处理中，也就是接收到响应主体了<br>4：请求已完成，且响应已就绪，也就是响应完成了</p>
+</code></pre><h3 id="取得响应">取得响应</h3><p><strong>一些方法</strong><br>responseText：获得字符串形式的响应数据<br>responseXML：获得XML形式的响应数据<br>status和statusText：以数字和文本形式返回HTTP状态码<br>getAllResponseHeader()：获取所有的响应报头<br>getResponseHeader()：查询响应中的某个字段值</p>
+<p><strong>readyState属性</strong><br>0：请求未初始化，open还没有调用<br>1：服务器连接已建立，open已经调用了<br>2：请求已接收，也就是接收到头信息了<br>3：请求处理中，也就是接收到响应主体了<br>4：请求已完成，且响应已就绪，也就是响应完成了</p>
 <pre><code>var request = new XMLHttpRequest<span class="params">()</span>;
 request.open<span class="params">(<span class="string">"GET"</span>,<span class="string">"get.php"</span>,<span class="literal">true</span>)</span>;
 request.send<span class="params">()</span>;
@@ -64,7 +66,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
         <span class="comment">//do something... request.responseText</span>
     }
 }
-</code></pre><h1 id="JSON">JSON</h1><p>　　Javascript对象表示法（JavaScript Object Notation），Json是存储和交换文本信息的语法，类似XML。它采用键值对的方式来组织，易于人们阅读和编写，同时也易于机器解析和生成。Json是独立于语言的，也就是说不管什么语言，都可以解析Json，只需要按照Json的规则来就行。<br>　　Json与XML比较：Json的长度和XML格式比起来很短小，Json读写速度更快，Json可以使用Javascript内建的方法直接进行解析，转换成Javascript对象，非常方便。<br>　　Json的书写格式是：名称/值对。<br>　　名称/值对组合中的名称写在前面（在双引号中），值对写在后面（同样在双引号中），中间用冒号隔开：比如“name”:”peter”<br>　　Json的值可以是以下类型：数字、字符串、布尔值、数组、对象、null。</p>
+</code></pre><h1 id="六、JSON">六、JSON</h1><p>　　Javascript对象表示法（JavaScript Object Notation），Json是存储和交换文本信息的语法，类似XML。它采用键值对的方式来组织，易于人们阅读和编写，同时也易于机器解析和生成。Json是独立于语言的，也就是说不管什么语言，都可以解析Json，只需要按照Json的规则来就行。<br>　　Json与XML比较：Json的长度和XML格式比起来很短小，Json读写速度更快，Json可以使用Javascript内建的方法直接进行解析，转换成Javascript对象，非常方便。<br>　　Json的书写格式是：名称/值对。<br>　　名称/值对组合中的名称写在前面（在双引号中），值对写在后面（同样在双引号中），中间用冒号隔开：比如“name”:”peter”<br>　　Json的值可以是以下类型：数字、字符串、布尔值、数组、对象、null。</p>
 <pre><code><span class="comment">//eg</span>
 {
     <span class="string">"staff"</span>:[
@@ -74,24 +76,24 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     ]
 }
 </code></pre><p>　　推荐一个Json的<a href="http://json.cn/" target="_blank" rel="external">在线解析工具</a>，可以解析json并验证格式是否有误。</p>
-<h1 id="jQuery_ajax()">jQuery ajax()</h1><p>　　一般我们在写Ajax的时候已经不采用原生的写法了，因为原生的写法比较复杂，不灵活，jQuery封装的ajax()方法非常简便，使用时只需要将jquery.js文件引入进来即可。</p>
-<h3 id="jQuery-ajax([setting])">jQuery.ajax([setting])</h3><p>type：类型，“POST”或”GET”，默认为“GET”<br>url：发送请求的地址<br>data：是一个对象，连同请求发送到服务器的数据<br>dataType：预期服务器返回的数据类型。如果不指定，jQuery将自动根据HTTP包MIME信息来智能判断，一般我们采用json格式，可以设置为“json”<br>success：是一个方法，请求成功后的回调函数。传入返回后的数据，以及包含成功代码的字符串<br>error：是一个方法，请求失败时调用此函数。传入XMLHttpRequest对象。</p>
-<h1 id="跨域">跨域</h1><h3 id="一个域名地址的组成：">一个域名地址的组成：</h3><p><img src="http://i13.tietuku.com/12e721a1310ced94.png" alt="域名组成"><br>　　当协议、子域名、主域名、端口号任意一个不同时，都算作不同域。不同域之间相互请求资源，就算作“跨域”。
-　　</p>
-<h3 id="跨域-1">跨域</h3><p>　　Javascript出于安全方面的考虑，不允许跨域调用其他页面的对象。什么是跨域呢，简单地理解就是因为javascript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com域名下的对象。<br><img src="http://i13.tietuku.com/07b8d9e17da124d2.png" alt="跨域"></p>
-<h3 id="解决跨域的方法">解决跨域的方法</h3><ol>
+<h1 id="七、jQuery_ajax()">七、jQuery ajax()</h1><p>　　一般我们在写Ajax的时候已经不采用原生的写法了，因为原生的写法比较复杂，不灵活，jQuery封装的ajax()方法非常简便，使用时只需要将jquery.js文件引入进来即可。<br><strong>jQuery.ajax([setting])</strong><br>type：类型，“POST”或”GET”，默认为“GET”<br>url：发送请求的地址<br>data：是一个对象，连同请求发送到服务器的数据<br>dataType：预期服务器返回的数据类型。如果不指定，jQuery将自动根据HTTP包MIME信息来智能判断，一般我们采用json格式，可以设置为“json”<br>success：是一个方法，请求成功后的回调函数。传入返回后的数据，以及包含成功代码的字符串<br>error：是一个方法，请求失败时调用此函数。传入XMLHttpRequest对象。</p>
+<h1 id="八、跨域">八、跨域</h1><p><strong>一个域名地址的组成</strong><br><img src="http://i13.tietuku.com/12e721a1310ced94.png" alt="域名组成"><br>　　当协议、子域名、主域名、端口号任意一个不同时，都算作不同域。不同域之间相互请求资源，就算作“跨域”。<br>　　<br><strong>跨域</strong><br>　　Javascript出于安全方面的考虑，不允许跨域调用其他页面的对象。什么是跨域呢，简单地理解就是因为javascript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com域名下的对象。<br><img src="http://i13.tietuku.com/07b8d9e17da124d2.png" alt="跨域"></p>
+<p><strong>解决跨域的方法</strong></p>
+<ol>
 <li>通过在同域名的web服务器端创建一个代理（略）</li>
 <li>JSONP<br>　　局限性：只支持GET请求，不支持POST请求。</li>
-<li>XHR2<br>　　HTML5提供的XMLHttpRequest Level2已经实现了跨域访问以及其他的一些新功能，IE10以下不支持。在服务器端修改接口，加入下面的代码：<br> header(‘Access-Control-Allow-Origin:*’);<br> header(‘Access-Control-Allow-Methods:POST,GET’);</li>
+<li>XHR2<br>　　HTML5提供的XMLHttpRequest Level2已经实现了跨域访问以及其他的一些新功能，IE10以下不支持。在服务器端修改接口，加入下面的代码：<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">header<span class="list">(<span class="quoted">'Access-Control-Allow-Origin</span><span class="keyword">:*</span>')</span><span class="comment">;</span></span><br><span class="line">header<span class="list">(<span class="quoted">'Access-Control-Allow-Methods</span><span class="keyword">:POST</span>,GET')</span><span class="comment">;</span></span><br></pre></td></tr></table></figure>
+</li>
 </ol>
-<h1 id="参考阅读">参考阅读</h1><ol>
+<h1 id="九、参考阅读">九、参考阅读</h1><ol>
 <li><a href="http://www.imooc.com/learn/250" target="_blank" rel="external">慕课网Ajax教程</a></li>
 <li><a href="http://www.w3school.com.cn/jquery/ajax_ajax.asp" target="_blank" rel="external">jQuery ajax - ajax()方法</a></li>
 <li><a href="http://www.cnblogs.com/2050/p/3191744.html" target="_blank" rel="external">js中几种实用的跨域方法原理详解</a></li>
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="简介">简介</h1><p>　　Ajax的全称是Asynchronous Javascript And XML，即异步JavaScript和XML。Ajax不是一门编程语言，而是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，Ajax 可以使网]]>
+    <![CDATA[<h1 id="一、简介">一、简介</h1><p>　　Ajax的全称是Asynchronous Javascript And XML，即异步JavaScript和XML。Ajax不是一门编程语言，而是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。传统的网页（不使用Ajax）如果需要更新内容，必须重载整个网页页面。<br><img src="http://i13.tietuku.com/b1891963025938dd.png" alt="example"><br>　　学习Ajax只需要具备HTML,CSS,Javascript的基础知识就行。<br>]]>
+    
     </summary>
     
       <category term="ajax" scheme="http://surongxiang.github.io/categories/ajax/"/>
@@ -103,13 +105,12 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/09/29/%E8%99%9A%E5%AE%9E%E4%B9%8B%E9%97%B4/"/>
     <id>http://surongxiang.github.io/2015/09/29/虚实之间/</id>
     <published>2015-09-29T10:49:54.000Z</published>
-    <updated>2015-10-02T08:09:40.000Z</updated>
+    <updated>2015-10-17T13:27:18.000Z</updated>
     <content type="html"><![CDATA[<p>　　怕忘记此刻的心情，还是写一下吧。<br>　　虚实之间是最近看的一本书，芮成钢写的，最后有一首诗非常喜欢，也是这段时间一直让我坚持不懈的精神支柱。芮说，他的很多信仰都包含在这首诗中。</p>
 <h2 id="如果">如果</h2><blockquote>
 <p>吉卜林（英） 芮成钢（译）</p>
 </blockquote>
-<p>如果，身边的人都失去理智，并将其归咎于你，<br>而你却能保持清醒；<br>如果，所有人都怀疑你，而你却能自信如常，<br>并体谅他们对你的怀疑；<br>如果，你能耐心等待，不急不躁，<br>或遭人诽谤憎恨，却不去以牙还牙；<br>既不去光彩照人，亦不去才华横溢； </p>
-<p>如果，你能去梦想，但却不做梦想的奴隶；<br>如果，你能去思辩，而不是为了思考而思考；<br>如果，你能以平常心坦然面对失败和凯旋，<br>并懂得：它们其实都是幻象；<br>如果，你能忍受你说出的真理，被无赖们故意曲解演绎，<br>用以误导愚昧人群；<br>或者，眼睁睁看着你为之付出一切的珍爱，<br>被人摧毁，然后俯拾碎片，<br>用老旧的工具去细细修补； </p>
+<p>如果，身边的人都失去理智，并将其归咎于你，<br>而你却能保持清醒；<br>如果，所有人都怀疑你，而你却能自信如常，<br>并体谅他们对你的怀疑；<br>如果，你能耐心等待，不急不躁，<br>或遭人诽谤憎恨，却不去以牙还牙；<br>既不去光彩照人，亦不去才华横溢；<br><a id="more"></a><br>如果，你能去梦想，但却不做梦想的奴隶；<br>如果，你能去思辩，而不是为了思考而思考；<br>如果，你能以平常心坦然面对失败和凯旋，<br>并懂得：它们其实都是幻象；<br>如果，你能忍受你说出的真理，被无赖们故意曲解演绎，<br>用以误导愚昧人群；<br>或者，眼睁睁看着你为之付出一切的珍爱，<br>被人摧毁，然后俯拾碎片，<br>用老旧的工具去细细修补； </p>
 <p>如果，你敢把所有赢来的人生筹码堆在一起，<br>冒险一搏，却一把输光，<br>然后从零开始，永不言败；<br>如果，你能让筋疲力尽的意志与肌体，<br>依然听从于你仅存的意志，<br>告诉自己一定要“坚持”； </p>
 <p>如果，你能和百姓打成一片，却拒绝随波逐流；<br>或与王者同行，却不忘，庶民本色；<br>如果，无论是宿敌还是挚友，都无法伤害到你；<br>如果，所有人对你都很重要，但又没有谁那么重要；<br>如果，你能惜时如金，分秒必争；<br>那么，这个世界就全都属于你，<br>而你，我的儿子，也终将长大成人。</p>
 <p>　　保研结束了，松了一口气，但是其实也并没有像高考结束时体会到打从心底涌入的给自己前18年人生画上句点的感受，高考前以为这真的就是一场决定人生的考试，可是上了大学以后发现其实也不过如此。刚上大一的时候以为自己注定要考研，所以心中一直有考研的念想，后来教育部改变政策放宽保外条件所以很幸运地获得了这次保外校的资格。这样的结果也算是对大学前三年一个负责任的交代。我从来不相信付出和回报是成正比的，倘若将随机采样数据进行回归分析，也一定不会拟合为一条直线。<br>　　觉得幸运的是经历了这段刻骨铭心的经历，这段时间经历的事情、遇到的人，都将终生难忘。南大的CL老师，北大的LY老师，两位在我人生重要抉择的阶段给予了我不曾设想的帮助与建议，他们是我最要感谢的人。参加夏令营、翻论文、寄材料、复习备考还有焦灼地等待…等待…还是等待是这三四个月以来的所有故事，感谢一同经历这段时光的伙伴。还有家人对我任何抉择的无理由支持与不干涉，分享我的喜，分担我的愁。<br>　　最想要的归宿是北京，因为从来没有去过，所以总是幻想那里的模样，幻想自己走在北京大街的模样，幻想那里足够我走马观花三年的风景。以为那里是一片广阔的燎原，有我所想，有我所需。为了这个目标也断断续续准备了有一个多月，虽然最后没能实现，但是也觉得心满意足，因为我听从内心放弃眼前所有做了一个非常危险的赌注，尽管失败但是我也不曾后悔，因为如果没有做这个决定想必现在我一定会感到懊悔不已。<br>　　辗转反侧一直在学业的道路上忙碌到现在，后面也应该开始对自己的未来做打算了，研究生三年选择在武汉度过，应该又会是一段不错的故事。</p>
@@ -117,7 +118,10 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <summary type="html">
     <![CDATA[<p>　　怕忘记此刻的心情，还是写一下吧。<br>　　虚实之间是最近看的一本书，芮成钢写的，最后有一首诗非常喜欢，也是这段时间一直让我坚持不懈的精神支柱。芮说，他的很多信仰都包含在这首诗中。</p>
 <h2 id="如果">如果</h2><blockquote>
-<p>吉卜林（英]]>
+<p>吉卜林（英） 芮成钢（译）</p>
+</blockquote>
+<p>如果，身边的人都失去理智，并将其归咎于你，<br>而你却能保持清醒；<br>如果，所有人都怀疑你，而你却能自信如常，<br>并体谅他们对你的怀疑；<br>如果，你能耐心等待，不急不躁，<br>或遭人诽谤憎恨，却不去以牙还牙；<br>既不去光彩照人，亦不去才华横溢；<br>]]>
+    
     </summary>
     
       <category term="生活" scheme="http://surongxiang.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
@@ -146,8 +150,8 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/08/07/OpenLayers-GeoServer%E5%85%A5%E6%96%B0%E5%9D%91/"/>
     <id>http://surongxiang.github.io/2015/08/07/OpenLayers-GeoServer入新坑/</id>
     <published>2015-08-07T02:23:28.000Z</published>
-    <updated>2015-08-09T11:46:14.000Z</updated>
-    <content type="html"><![CDATA[<p>　　在公司实习，然后老板要求看一下OpenLayers和GeoServer，原来不是只有ArcGIS……发现新的WebGIS开发模式，记录一下。</p>
+    <updated>2015-10-17T13:28:00.000Z</updated>
+    <content type="html"><![CDATA[<p>　　在公司实习，然后老板要求看一下OpenLayers和GeoServer，原来不是只有ArcGIS……发现新的WebGIS开发模式，记录一下。<br><a id="more"></a></p>
 <h2 id="一、发布一个Shapefile"><strong>一、发布一个Shapefile</strong></h2><ol>
 <li>首先创建一个工作区（Create a New Workspace）</li>
 <li>然后创建一个数据存储（Create a Data Store），注意要发布的数据放在GeoServer的Content/Java/data_dir/data目录下。</li>
@@ -177,8 +181,8 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
 <p>createdb yourdatabase<br>createlang plpgsql yourdatabase<br>psql -d yourdatabase -f postgis.sql<br>psql -d yourdatabase -f postgis_comments.sql<br>psql -d yourdatabase -f spatial_ref_sys.sql<br>psql -d yourdatabase -f rtpostgis.sql<br>psql -d yourdatabase -f raster_comments.sql<br>psql -d yourdatabase -f topology.sql<br>psql -d yourdatabase -f topology_comments.sql</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>　　在公司实习，然后老板要求看一下OpenLayers和GeoServer，原来不是只有ArcGIS……发现新的WebGIS开发模式，记录一下。</p>
-<h2 id="一、发布一个Shapefile"><strong>一、发布一个Shapefile</strong></h]]>
+    <![CDATA[<p>　　在公司实习，然后老板要求看一下OpenLayers和GeoServer，原来不是只有ArcGIS……发现新的WebGIS开发模式，记录一下。<br>]]>
+    
     </summary>
     
       <category term="WebGIS" scheme="http://surongxiang.github.io/categories/WebGIS/"/>
