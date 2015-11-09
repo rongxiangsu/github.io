@@ -6,7 +6,6 @@ $(document).ready(function () {
     });
     $(".introduction").find(".div-uni").click(function () {
         $(this).slideUp("slow");
-
     });
 
     $(".intro").hover(function () {

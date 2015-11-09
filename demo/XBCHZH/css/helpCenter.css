@@ -1,0 +1,19 @@
+.social-div {
+    width: 25%;
+    float: left;
+}
+
+.div-con {
+    margin: 50px 100px;
+    overflow: auto;
+    text-align: center;
+}
+.social-div-2 {
+    width: 25%;
+    height: 100px;
+    float: left;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    color: #fff;
+}

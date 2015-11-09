@@ -1,0 +1,77 @@
+.share-con{
+    margin: 40px 50px;
+    overflow: auto;
+}
+.share-div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 448px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-size: 2em;
+    line-height: 500px;
+}
+.share-div:hover{
+    color: #333;
+}
+.share-div1{
+    background-image: url(../image/enjoy/e-share.png);
+}
+.share-div2{
+    background-image: url(../image/enjoy/e-trans.png);
+}
+.share-div3{
+    background-image: url(../image/enjoy/e-lita.png);
+}
+.share-div4{
+    background-image: url(../image/enjoy/e-duty.png);
+}
+.share-list{
+    clear: both;
+    margin: 0 200px;
+    padding-top: 40px;
+}
+.share-list ul{
+    padding-left: 0 !important;
+}
+.share-list ul li{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    line-height: 2.5em;
+}
+.share-list ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.share-list ul li span{
+    float: right;
+}
+.btn-share{
+    background-color: #e16128;
+    color: #fff;
+    box-shadow: 1px 1px 5px #222;
+    margin: 50px 0;
+    width: 130px;
+}
+
+/*文章详情页面样式*/
+.share-article-left{
+    width: 20%;
+    float: left;
+}
+.share-article-right{
+    width: 70%;
+    float: left;
+}
+.share-article-p1{
+    position: relative;
+    top: -210px;
+    left: 53px;
+    font-size: 2em;
+    color: #fff;
+}

@@ -1,0 +1,49 @@
+.pro-banner{
+    background-color: #f21a5b;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 98px;
+}
+.pro-ex{
+    position: relative;
+    left: 50%;
+    top: 40px;
+    margin-left: -110px;
+}
+.pro-con{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.pro-title{
+    margin: 50px auto 30px auto;
+    color: #fff;
+    background-color: #f21a5b;
+    box-shadow: 1px 1px 5px #333;
+    padding: 10px 10px;
+    width: 200px;
+    text-align: center;
+}
+.pro-hand{
+    position: relative;
+    left: 50%;
+    margin-left: -70px;
+    top: -250px;
+}
+.pro-btn{
+    background-color: #f21a5b;
+    color: #fff;
+    padding: 10px 10px;
+    width: 150px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: -100px;
+}
+.pro-btn:hover{
+    border:2px solid #fbfd35;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="growTogether">
+<head lang="en" ng-controller="headCtrl">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/share.css">
+    <link rel="stylesheet" href="css/complain.css">
+    <link rel="stylesheet" href="css/investment.css">
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/helpCenter.css">
+    <link rel="stylesheet" href="css/promotion.css">
+    <title>{{vm.titleName}}</title>
+</head>
+<body ng-controller="indexCtrl">
+<div class="container-fluid">
+    <div class="row">
+        <div class="head">
+            <div class="nav nav-bar">
+                <ul class="container" ng-init="vm.pageStatus = 'main'">
+                    <li ng-class="{'active':vm.pageStatus == 'main'}" ng-click="vm.pageStatus = 'main'"><a href="#/">首页</a></li>
+                    <li ng-class="{'active':vm.pageStatus == 'share'}" ng-click="vm.pageStatus = 'share'"><a href="#/share">站长分享</a></li>
+                    <li ng-class="{'active':vm.pageStatus == 'investment'}" ng-click="vm.pageStatus = 'investment'"><a href="#/investment">产品招商</a></li>
+                    <li ng-class="{'active':vm.pageStatus == 'store'}" ng-click="vm.pageStatus = 'store'"><a href="#/store">商城入口</a></li>
+                    <li ng-class="{'active':vm.pageStatus == 'complain'}" ng-click="vm.pageStatus = 'complain'"><a href="#/complain">投诉建议</a></li>
+                    <li ng-class="{'active':vm.pageStatus == 'help'}" ng-click="vm.pageStatus = 'help'"><a href="#/help">帮助中心</a></li>
+                    <li ng-class="{'active':vm.pageStatus == 'promotion'}" ng-click="vm.pageStatus = 'promotion'"><a href="#/promotion">推广英雄榜</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container container-body">
+            <div ng-view>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid" style="background-color: #ffe6a6;height:20px;margin-bottom: 10px"></div>
+            <div class="container">
+                <p class="foot-word">相伴成长</p>
+                <img class="social" src="image/shouye/social-sprite.png">
+
+                <div class="xian"></div>
+                <div class="foot-add">
+                    <p>地址：安徽省合肥市屯溪路193号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：18055696333</p>
+
+                    <p>网址：www.xbchzh.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：2546748624@qq.com</p>
+
+                    <p>Copyright©2015-2016，相伴成长，All rights reserved 版权所有</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controller/indexCtrl.js"></script>
+<script src="js/controller/headCtrl.js"></script>
+</body>
+</html>
