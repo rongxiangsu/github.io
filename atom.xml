@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://surongxiang.github.io/"/>
-  <updated>2015-10-17T13:42:58.000Z</updated>
+  <updated>2015-11-22T01:46:04.000Z</updated>
   <id>http://surongxiang.github.io/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[回忆录]]></title>
+    <link href="http://surongxiang.github.io/2015/11/22/%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    <id>http://surongxiang.github.io/2015/11/22/回忆录/</id>
+    <published>2015-11-22T01:45:00.000Z</published>
+    <updated>2015-11-22T01:46:04.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="生活" scheme="http://surongxiang.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Ajax学习]]></title>
@@ -539,84 +554,6 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     </summary>
     
       <category term="tips" scheme="http://surongxiang.github.io/categories/tips/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[2014总结]]></title>
-    <link href="http://surongxiang.github.io/2015/01/27/2014%E6%80%BB%E7%BB%93/"/>
-    <id>http://surongxiang.github.io/2015/01/27/2014总结/</id>
-    <published>2015-01-26T16:11:20.000Z</published>
-    <updated>2015-02-28T12:18:20.000Z</updated>
-    <content type="html"><![CDATA[<p>看到一个有趣的总结方式，就是把这一年来做的事情以清单的形式罗列出来。要说为什么突然决定要开始这么做，应该是想为了避免日后回顾困难吧（现在都要靠翻社交才能记起来干了什么事额……）。第一次写年终总结是在2012年，那是大一上学期寒假的时候写的，记得是刚从合肥回到家的那一天因为兴奋地睡不着觉就拿起本写了一段一万多字的矫情的话。2013年没有继续写，因为这一年太多彷徨导致自己无所事事了一年，不过倒也去了不少地方旅游。</p>
-<h2 id="读的书"><strong>读的书</strong></h2><ol>
-<li><a href="http://book.douban.com/subject/10562233/" target="_blank" rel="external">人生</a></li>
-<li><a href="http://book.douban.com/subject/5352830/" target="_blank" rel="external">唐人街</a></li>
-<li><a href="http://book.douban.com/subject/1033778/" target="_blank" rel="external">富爸爸穷爸爸</a></li>
-<li><a href="http://book.douban.com/subject/4242172/" target="_blank" rel="external">天才在左疯子在右</a></li>
-<li><a href="http://book.douban.com/subject/1770782/" target="_blank" rel="external">追风筝的人</a></li>
-</ol>
-<p>还有三本这几天正在看：</p>
-<ol>
-<li><a href="http://book.douban.com/subject/1082518/" target="_blank" rel="external">麦田里的守望者</a></li>
-<li><a href="http://book.douban.com/subject/20427187/" target="_blank" rel="external">看见</a></li>
-<li><a href="http://book.douban.com/subject/6052860/" target="_blank" rel="external">海底捞你学不会</a></li>
-</ol>
-<p>好吧，由于没有把读完的书留存下来或者写读书笔记的习惯，我能记得的今年看过的书也就这几本了，在此做一个决定，以后每读完一本书就在这里写一篇读书笔记。以前觉得自己是有文字恐惧症的人，后来发现只不过是因为初高中的时候对一些文学名著不感兴趣的原因而对阅读产生抵触，上了大学以后有时间也会看几本闲书，现在觉得读书其实是一件很享受的事情。<br><a id="more"></a></p>
-<h2 id="做的事"><strong>做的事</strong></h2><h3 id="1-2月">1-2月</h3><p>在映联万和打工一个月赚外快。回老家，爬九仙山。</p>
-<h3 id="3月">3月</h3><p>和室友去天鹅湖那边DIY，三七女生节和班级同学一起去幸福DIY做饭，还买了蛋糕全班吃，感觉挺温馨的~然后抱大神学长们的大腿，开始接触网站前端开发技术，也是断断续续学到现在。还去了GDG女性开发者节活动现场担任志愿者。和轮滑社小伙伴刷天鹅湖。</p>
-<h3 id="4月">4月</h3><p>为GIS大赛做准备，断断续续也坚持了两个来月，虽然最后还是没有完成作品……加入<a href="http://user.qzone.qq.com/1405013833/main" target="_blank" rel="external">工大开发者联盟团队</a>开始创业，后面一直在给吃货口袋做推广还有辅助运营等一系列事情，加上联盟自己的事情，忙得不可开支。参加班级羽毛球赛，止步32强……上午赢了一局，下午就输掉被淘汰了。</p>
-<h3 id="5月">5月</h3><p>去听俞敏洪的演讲，创业大讲堂。母亲节组织全班拍照送祝福。联盟举办对话产品经理人和前端技术进校园活动，打打杂帮点忙。创新项目申请通过，项目名称我要记一下，MD太长了：<strong>基于多源遥感技术的煤矿区生态环境演变研究</strong>。</p>
-<h3 id="6月">6月</h3><p>儿童粽子节给全班买粽子糖果过节。考六级。准备期末考。科目二通过。</p>
-<h3 id="7月">7月</h3><p>跟老师做项目，AE开发，写了一点C#。和轮滑社小伙伴刷天鹅湖。从翡翠湖校区搬到屯溪路校区。暑假在安徽省地震局实习半个月，一直到8月8号，其实就是画图……</p>
-<h3 id="8月">8月</h3><p>暑假在餐馆打工。玩儿。星光聚会。</p>
-<h3 id="9月">9月</h3><p>大三开学，驾照进阶到第四阶段！联盟招新，技术沙龙招新。之前由于各种原因没有认真在学前端， 开学以后就腾出比较多的空闲时间在学前端，看了jQuery、Bootstrap，也学了一点简单的Git操作，国庆都没出去玩很对得起自己吧，也算弥补荒被废掉的暑假，自我感觉技术应该多少有点长进吧。</p>
-<h3 id="10月">10月</h3><p>技术沙龙开班，担任南区助教。火狐十周年活动打杂。参加2014ELIFE杯校园黑马创业大赛，被顺利淘汰，和小伙伴们一起写了一本四十多页的商业计划书也是很拼，记得是连续三四天在中心每天赶工到阿姨来赶人，一直到路演当天凌晨两点多才连PPT一起整理完毕，真是折寿，不过有这段经历也不错。</p>
-<h3 id="11月">11月</h3><p>旅行的话，带全班去皖西大裂谷也算吧。然后参加了学校的创业培训，一直到1月初才结业，期间印象最深的应该是去国家科技园参观吧，主要是那边的总经理比较给力，能言善道，最后拿了个优秀学员的奖励，可是感觉自己在打酱油=。=。11月16日参加<br><a href="http://ww4.sinaimg.cn/large/6d7d5c05gw1eonx6v1vlfj21kw28gqmi.jpg" target="_blank" rel="external">合肥2014万科杯马拉松半程（21km）</a>，极其不可思议地完成了比赛，秀一下证书。刚跑完马拉松就去新区给创业培训班的童鞋们做分享，当时简直要死了。</p>
-<h3 id="12月">12月</h3><p>内部办公系统启动，开始参与人生第一个网站项目。参与联盟的<a href="http://user.qzone.qq.com/1405013833/blog/1412415704" target="_blank" rel="external">技术沙龙</a>教学，教学内容是jQuery，小有成就感~后来参加了GDG项目路演活动，担任志愿者，原本是要参加路演的，哎，不过也在认识了一位安大的大神，以后可以多交流。17号GIS交流会，领几个同学一起去新区和直系学弟学妹做交流分享。金斧川班级聚餐跨年。</p>
-<h3 id="2015年1月">2015年1月</h3><p>准备期末考试，刷分真苦逼。搭建hexo个人博客，开始记录学习历程和生活点滴。搞联盟内部办公系统项目的美工。</p>
-<h3 id="2015年2月">2015年2月</h3><p>寒假在软件园实习一个月，虽然干的不是写代码的活儿，但是多多少少学到一些东西。回老家过年，第一次参加割火。</p>
-<h2 id="Coding"><strong>Coding</strong></h2><ol>
-<li>学了html/css/javascript基本前端开发语言</li>
-<li>jQuery</li>
-<li><a href="http://surongxiang.github.io/2015/01/25/%E5%85%88%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AAhexo%E7%9A%84%E7%BB%8F%E9%AA%8C%E5%90%A7/">hexo</a></li>
-<li><a href="http://surongxiang.github.io/2015/01/26/%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%8BMarkdown/#more">markdown</a></li>
-<li>php/MySQL接触一点</li>
-<li>Bootstrap前端框架</li>
-<li>Git工具</li>
-</ol>
-<h2 id="新年计划"><strong>新年计划</strong></h2><ol>
-<li>要念研究生</li>
-<li>多写代码，多学框架，学html5和css3</li>
-<li>吉他</li>
-<li>锻炼身体，体重要加！</li>
-<li>一周至少更一篇博客except考试周（看起来难度颇大）</li>
-<li>刷六级</li>
-<li>看10本书（慢慢来嘛）</li>
-<li>暑假有时间去黄山一趟</li>
-<li>拿到驾照</li>
-</ol>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>看到一个有趣的总结方式，就是把这一年来做的事情以清单的形式罗列出来。要说为什么突然决定要开始这么做，应该是想为了避免日后回顾困难吧（现在都要靠翻社交才能记起来干了什么事额……）。第一次写年终总结是在2012年，那是大一上学期寒假的时候写的，记得是刚从合肥回到家的那一天因为兴奋地睡不着觉就拿起本写了一段一万多字的矫情的话。2013年没有继续写，因为这一年太多彷徨导致自己无所事事了一年，不过倒也去了不少地方旅游。</p>
-<h2 id="读的书"><strong>读的书</strong></h2><ol>
-<li><a href="http://book.douban.com/subject/10562233/">人生</a></li>
-<li><a href="http://book.douban.com/subject/5352830/">唐人街</a></li>
-<li><a href="http://book.douban.com/subject/1033778/">富爸爸穷爸爸</a></li>
-<li><a href="http://book.douban.com/subject/4242172/">天才在左疯子在右</a></li>
-<li><a href="http://book.douban.com/subject/1770782/">追风筝的人</a></li>
-</ol>
-<p>还有三本这几天正在看：</p>
-<ol>
-<li><a href="http://book.douban.com/subject/1082518/">麦田里的守望者</a></li>
-<li><a href="http://book.douban.com/subject/20427187/">看见</a></li>
-<li><a href="http://book.douban.com/subject/6052860/">海底捞你学不会</a></li>
-</ol>
-<p>好吧，由于没有把读完的书留存下来或者写读书笔记的习惯，我能记得的今年看过的书也就这几本了，在此做一个决定，以后每读完一本书就在这里写一篇读书笔记。以前觉得自己是有文字恐惧症的人，后来发现只不过是因为初高中的时候对一些文学名著不感兴趣的原因而对阅读产生抵触，上了大学以后有时间也会看几本闲书，现在觉得读书其实是一件很享受的事情。<br>]]>
-    
-    </summary>
-    
-      <category term="生活" scheme="http://surongxiang.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
