@@ -4,30 +4,15 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://surongxiang.github.io/"/>
-  <updated>2015-11-22T01:46:04.000Z</updated>
+  <updated>2015-10-17T13:42:58.000Z</updated>
   <id>http://surongxiang.github.io/</id>
   
   <author>
-    <name><![CDATA[surongxiang]]></name>
+    <name><![CDATA[wushi]]></name>
     <email><![CDATA[hfutsrx@sina.com]]></email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[回忆录]]></title>
-    <link href="http://surongxiang.github.io/2015/11/22/%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
-    <id>http://surongxiang.github.io/2015/11/22/回忆录/</id>
-    <published>2015-11-22T01:45:00.000Z</published>
-    <updated>2015-11-22T01:46:04.000Z</updated>
-    <content type="html"></content>
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="生活" scheme="http://surongxiang.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[Ajax学习]]></title>
@@ -144,23 +129,6 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
   </entry>
   
   <entry>
-    <title><![CDATA[September]]></title>
-    <link href="http://surongxiang.github.io/2015/09/01/September/"/>
-    <id>http://surongxiang.github.io/2015/09/01/September/</id>
-    <published>2015-09-01T15:23:38.000Z</published>
-    <updated>2015-09-01T15:25:28.000Z</updated>
-    <content type="html"><![CDATA[<p>　　要拼盡全力的九月，拼！</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>　　要拼盡全力的九月，拼！</p>
-]]>
-    </summary>
-    
-      <category term="生活" scheme="http://surongxiang.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[OpenLayers+GeoServer入新坑]]></title>
     <link href="http://surongxiang.github.io/2015/08/07/OpenLayers-GeoServer%E5%85%A5%E6%96%B0%E5%9D%91/"/>
     <id>http://surongxiang.github.io/2015/08/07/OpenLayers-GeoServer入新坑/</id>
@@ -222,23 +190,6 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
   </entry>
   
   <entry>
-    <title><![CDATA[南京大学2015地理学夏令营]]></title>
-    <link href="http://surongxiang.github.io/2015/07/07/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%9C%B0%E7%90%86%E5%AD%A6%E5%A4%8F%E4%BB%A4%E8%90%A5/"/>
-    <id>http://surongxiang.github.io/2015/07/07/南京大学地理学夏令营/</id>
-    <published>2015-07-06T16:17:29.000Z</published>
-    <updated>2015-07-16T08:53:13.000Z</updated>
-    <content type="html"><![CDATA[<p>　　前天到的南京，三个月前清明的时候刚来过一次，掐指一算，加上这次，大学三年来南京的次数也有四次了，他们说安徽的省会是南京，不无道理。上周日下午刚到南京，2号线到仙鹤门走了好长一段路才到汉庭，不过住宿环境还是相当不错的。领了材料袋、房卡、饭卡还有营服，没多久就跟大部队出发去南大仙林校区边上的冠军宾馆吃晚饭了，吃的自助餐，认识了一下同桌的小伙伴，这次夏令营有好多学校的同学，一共应该80人左右吧，南师、福师、华中农业、中山、山大、南开、安师大、安大、南大本校的、西南交大、武汉理工、南农、东南、武大的，感觉都是一群很优秀的学生，和他们交流学习到很多。晚饭后跟同学一起在南大校园逛了一会儿，不过上次来的时候学姐带着都转过了，所以就比较没有那么新鲜感了。第一天旅途颠簸比较累，到合肥南的时候刚到候车厅5分钟左右车就到了，险些错过班车。<br><img src="http://i3.tietuku.com/023f4f0977d37ff3.jpg" alt="昆山楼合影"><br><a id="more"></a><br>　　第二天上午起得比较晚，在南大第十食堂买了早餐，很便宜，一个大肉包（比工大的大很多）+一片煎面包只要8毛。早上王腊春副院长主持开营仪式，然后是王颖院士讲话，王院士年纪比较大了，她的讲话方式我很喜欢，很有电影里看到的上世纪学堂讲学的老师的风范，她给我们简单介绍了南京的地理位置情况、地质地貌特征，当然还有南京城市的发展，期间引经据典，又结合理论基础知识，讲话通俗易懂，我觉得王院士讲的课应该会非常有趣吧。然后是鹿化煜院长讲话，鹿院长很年轻，打破了原以为担任院长一职的都是上年纪的老教授的传统，所以感觉鹿院长讲话也很亲切很有活力。他给我们介绍了地海学院的概况，实验室，研究所，专业情况，faculty and staff，priority direction。最后提到了一篇科学通报的文章，是南大一位博士生在硕士期间发表的文章，上了科学通报的封面，PM10什么的，回头查查看。然后在昆山楼门口合影，休息了一会儿鹿院长有继续做学术报告，讲得是关于全球变暖的争议和科学，从IPCC报告提出的两个观点引入主题，这两个观点是：1.地球正在变暖2.全球变暖是由人类活动造成的。鹿院长把全球变暖的温度变化用趋势图的形式展现，指出近几十年来气温变化幅度在0.8°C以内，并且逐渐把时间尺度拉长，说明了现在的全球变暖只是一个很小的时间点，而且现在地球的温度并不是和历史上的温度最高点差距还很大。接着又引出了这升高的0.8°C是否是由于CO2的排放引起的问题，他先说明了nature和sicence上的两个观点，一个是CO2的排放增长与温度升高是同步的，二是CO2的排放增长导致了温度的升高。然后通过推荐两篇文献告诉了我们目前争论发生的原因在于：1.科学认知的不确定性2.政治利益的分歧。接着告诉我们南大这里的老师有在做通过树木年轮、花粉、冰心等来测年代的研究，然后有讲了自己在读博期间做的博士论文，研究是的中国黄土堆积揭示的气候变化，季凤强的时候黄土发红，弱的时候黄土发白，然后鹿院长在陕西的某个农村住了三个月对一片高度为150米左右的黄土堆进行采样，而且是每隔3公分采一次样，想想也是蛮拼的，不过鹿院长告诉我们这个故事也是为了激励我们做科学研究不能心急，要稳扎稳打，从基础做起才能收获较好的成果。最后鹿院长告诉我们这次报告提出的问题的结论就是关于全球变暖的原因目前并不确定，这与太阳辐射、CO2、大洋环流、下垫面、气溶胶等因素有关，现在的学者也在不断地做这些方面的研究，不过目前为止还是不能够确定导致全球变暖的因素。如果没有听这场报告，估计当有人问我引起全球变暖的原因我会理所当然的回答CO2吧。第三位发言的是李满春书记，报告的内容是关于他最近做的一个项目，市县乡土地利用总体规划制图规范研究，就是给国土资源局做了一套制图规范,只花了100天的时间还是相当厉害的。后面还有黄金贤副院长做的关于绿色发展的报告，高抒教授做的人类与海洋的关系的报告，高老师讲话腔调很萌，会说一些像“捏”“对不对~”的词，他推荐给我们一本书，叫“YOUR INNER FISH”。最后一位是侯书贵老师讲话，他给我们讲的他在南极科考的经历，候老师很厉害，参与了中国第三个南极站——昆仑站的建设，而且也是到过南极点的人啊。然后上午大概就这样结束了，在第十食堂吃了午饭，吃的铁板培根，比俭园的培根饭好吃一些，两片培根、一块蒸玉米、一个荷包蛋还有淋黑椒汤汁，而且是10块一份，南大的食堂很实惠啊，吃饭的时候王院士和鹿院长都坐在我们旁边，感觉南大的氛围好亲切啊。下午孙雪峰老师带我们到昆山楼四楼参观了锆石U-Pb测年实验室、光释光测年实验室，整间房间只有红光，还蛮诡异的，因为锆石见光又会吸收能量，就测不到采集样本的那个时间的年代，都是测年代的实验室。还有在五楼程亮老师给我介绍他的实验室，演示了他们实验室开发的一个三维校园的产品，用Unity-3D引擎开发的，很厉害，还拿了挑战杯的一等奖。然后程老师还有介绍他做的关于一些文化遗产名胜古迹的建模的研究，还有南海观测的研究。后来传说中的占文凤老师就出现了，带我们参观了国际地球所的一些实验室还有服务器机房，占老师给我的第一感觉是很像田剑老师。之后下到三楼跟一位海洋的老师参观了一些海洋研究方面的实验室。然后一位师兄带我们到负一楼的冰库参观，里面存放着来自全世界各地的冰芯，总长度可达1600米，惊叹，而且冰库超冷的啊。然后研会的张世乔学长领我们又参观了南大校史馆、图书馆、大学生活动中心。参观完毕各种腿软，晚饭后去教育超市采购了一些食物就赶紧坐地铁回宾馆休息了。凌晨四点的时候突然来了一个从兰大过来的福建老乡，也是很拼，他们几个同学都是刚考完试就坐飞机赶过来参加夏令营。<br><img src="http://i3.tietuku.com/b93be5c3c427f2f1.jpg" alt="南大仙林校区食堂"><br>　　第三天是去无锡的太湖地理学国家野外实践教育基地，早上坐校车两个小时多左右才到，下车以后跟圆头猪小分队拍拍照、瞎逛逛就吃中午饭了，午饭也是在景区内的一家饭馆吃的，不过不怎么样，估计还很贵。然后导游带着我们一群人，在景区内参观，太湖是全国第三大内陆湖，可惜天气不是很好，一直是阴天所以湖面看着灰蒙蒙的。后来坐着轮渡去太湖水中的一座岛屿，貌似叫蓬莱岛，然后在轮渡上我们圆头猪分队就各种拍搞怪照片。在岛屿上转了一圈，印象最深的是一座老君岩，因为泉州也有一座，不过这里的老君岩涂了金色的漆，看起来很闪。后来在回去的轮渡上圆头猪们又开始玩卧底，整个甲板上的人都看着我们这么疯，还有几个小盆友过来捣乱哈哈。好像也不知道为什么因为这次太湖之旅我们这几个人就变得很黏。回到学校以后一起去五食堂拼桌吃饭，后来又去超市大采购一番就回宾馆了。<br><img src="http://i3.tietuku.com/680f07ca9b5efa84.jpg" alt="太湖合影"><br>　　第四天早上王院长介绍了学院的各个硕士专业情况，这才了解到原来南大这里的GISer也有去互联网公司的。然后是分专业与老师沟通交流，报GIS和摄影测量与遥感的同学竟然有44人，占了一大半。程亮老师、杜培军老师、佘江峰老师来和我们交流，觉得程亮老师是个很好的人，他博士是毕业于武大国重，我也是一时脑子发热就很冒昧地问他国重和南大相比各有什么特色，老师也很客观地给我们分析。然后我们一群人又在一楼大厅的沙发区聊了好一会儿，接着就去吃饭了。饭后没多久就开始准备下午的面试了。分成两组，A组和B组，每组21人，我是被分到B组第11个。南大本校的在A组，他们有7、8个人的样子。面试的时候有三个老师，其中一位是程亮老师。然后老师们基本都是按照我的简历上的东西来提问，比如问了我的GIS大赛做的作品，问我对于互联网和GIS的看法，有没有了解一些新型的GIS技术之类的可以很自由回答的问题，所以感觉整场面试都比较轻松，没有太大的压力，8min也很快就结束了。面试全部结束以后李满春书记讲了一些话，欢迎我们到南大继续深造。晚上圆头猪们又一起去第六食堂聚餐，最后一顿晚餐，大家都很不舍，还是各种搞怪瞎自拍。然后又去了教育超市买点补给，还了饭卡，到图书馆前面的二元广场还有校门合了张照就结束了。晚上回到宾馆，因为是最后一天大家就提出在三姐的“闺房”玩游戏聊天。各种high，后来还聊了很多事，还有对大家的第一印象。最后真的莫名其妙就是感觉很不舍得大家，不过相信以后一定会有机会成为同学或者在其他地方相聚吧。<br><img src="http://i3.tietuku.com/1bd50df637fc0e1b.jpg" alt="杜厦图书馆-二元广场"><br>　　这次来参加南大的感触很多，最初的想法也改变了，自己也很意外会是这样的结果。估计很有可能会留在南大读研吧，不过一切都还没有定数，本来就都是变数，结果是好的就够了。在南大夏令营短暂的3.5天结识了一群优秀的伙伴，几位出色的老师，很幸运得到老师的器重，很幸运认识来自全国各地志同道合的伙伴，大概这个是超出夏令营原有的意外收获吧。<br>　　“莫问前程，但行心事”，只能用这句话安慰自己，剩下的时间不去念想，还是按照自己的节奏踏实走好每步路，结果终将是好的，The story never ends。<br><img src="http://i3.tietuku.com/f5f513b8256a5f03.jpg" alt="圆头猪小分队"></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>　　前天到的南京，三个月前清明的时候刚来过一次，掐指一算，加上这次，大学三年来南京的次数也有四次了，他们说安徽的省会是南京，不无道理。上周日下午刚到南京，2号线到仙鹤门走了好长一段路才到汉庭，不过住宿环境还是相当不错的。领了材料袋、房卡、饭卡还有营服，没多久就跟大部队出发去南大仙林校区边上的冠军宾馆吃晚饭了，吃的自助餐，认识了一下同桌的小伙伴，这次夏令营有好多学校的同学，一共应该80人左右吧，南师、福师、华中农业、中山、山大、南开、安师大、安大、南大本校的、西南交大、武汉理工、南农、东南、武大的，感觉都是一群很优秀的学生，和他们交流学习到很多。晚饭后跟同学一起在南大校园逛了一会儿，不过上次来的时候学姐带着都转过了，所以就比较没有那么新鲜感了。第一天旅途颠簸比较累，到合肥南的时候刚到候车厅5分钟左右车就到了，险些错过班车。<br><img src="http://i3.tietuku.com/023f4f0977d37ff3.jpg" alt="昆山楼合影"><br>]]>
-    
-    </summary>
-    
-      <category term="gis" scheme="http://surongxiang.github.io/categories/gis/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[关于使用NexT主题以及配置的时候遇到的坑]]></title>
     <link href="http://surongxiang.github.io/2015/06/04/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8NexT%E4%B8%BB%E9%A2%98%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E7%9A%84%E6%97%B6%E5%80%99%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
     <id>http://surongxiang.github.io/2015/06/04/关于使用NexT主题以及配置的时候遇到的坑/</id>
@@ -273,23 +224,6 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
 ]]></content>
     <summary type="html">
     <![CDATA[<p>　　这几天忙创新项目，把报账的注意事项记录一下，方便日后查询。以下内容只针对资环学院。<br>]]>
-    
-    </summary>
-    
-      <category term="生活" scheme="http://surongxiang.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[四月应该会忙死吧]]></title>
-    <link href="http://surongxiang.github.io/2015/04/10/%E5%9B%9B%E6%9C%88%E5%BA%94%E8%AF%A5%E4%BC%9A%E5%BF%99%E6%AD%BB%E5%90%A7/"/>
-    <id>http://surongxiang.github.io/2015/04/10/四月应该会忙死吧/</id>
-    <published>2015-04-10T15:20:56.000Z</published>
-    <updated>2015-04-11T02:10:34.000Z</updated>
-    <content type="html"><![CDATA[<p>　　原本制定的两周写一篇博客的计划看来是还没开始就破灭了，一开学就发现这学期的事情特别多，红旗团支部申请、GIS大赛、还有机缘巧合被朋友拉进三创赛、学院班级的事情还有课业的各种报告，还有前一阵子联盟技术沙龙开班阶段的事情，过一阵子还要创新项目的结题答辩虽然自己是打酱油的。。。代码没什么长进，这段时间写得比较少，为了备技术沙龙的课前端的基础知识有巩固一下。对了，还有头脑发热组织了一个地理信息技术小组，原本是希望把自己班级的一些同学凑在一块儿每周一起练习两小时的ArcGIS和代码，后来没想到报名小组的同学多半是其他专业的，所以后来就变成每周给大家做一个2h的ArcGIS+Web开发培训了。虽然才2h，但是备课神马的也是很花时间的。明明不想走设计的路结果一直在做设计的事情，哎，做的还这么不专业。<br><img src="http://i2.tietuku.com/a64876d143378bf9.png" alt="Geomatics Group"><br><a id="more"></a><br>　　然后看了蔡康永的「说话之道」，是因为奇葩说的缘故对他的说法方式比较感兴趣然后就买了说话之道全集翻阅，抱着想学习说话的心态看完了这本书。原来这本书都是以小故事的形式说明一些说话的道理的，感觉蔡康永是个很细腻的人吧，能够放大这些平时多数人看不到的细节并作出全面的有逻辑的研究，讲述的道理也觉得蛮有道理，大多数都是以期望他人能够在与你沟通时不尴尬或者没有压力类似这样的目的去阐述的。不过，大多看完就忘记了，但又会忽然在某个特定的情境下回忆起，哦，说话之道里不就说过这个时候应该用什么样的方式去回别人话吗。大概就是这本书的神奇之处吧。<br>　　对了，清明去了南京。也是没什么计划的决定吧，出发前一个晚上的十点钟买下了隔天的车票，然后翌日一大早背着书包没什么行李就出发了。提前联系了高中的伙伴，很顺利也很感动，大概就是到了一个陌生城市有依靠那种心情吧，至少不用为了担心住哪里吃什么。下了高铁，趁着礼拜五早上没什么游客马上去了总统府参观。<br><img src="http://ww4.sinaimg.cn/large/6d7d5c05jw1er1dvu72btj208c0b4ta2.jpg" alt="总统府"><br>　　然后中午去找JX蹭饭，知道了南财的图书馆的寓意“读书顶个球用”，简直形象生动。下午去了南大仙林，找了一位以前工大的学姐，学姐很热情，太感动了陪了我一下午，带我逛校园，参观各种楼，有幸还进了图书馆参观，除了不断的感叹还是感叹，图书馆能建成这么雄伟也是很壕，如果要给图书馆评星级，我想至少大概能评到四星吧。<br><img src="http://ww4.sinaimg.cn/large/6d7d5c05jw1er1dvwmvthj208c069js9.jpg" alt="南大仙林校区图书馆"><br>　　南大以前原来叫金陵大学，还有国立中央大学，很气派。然后在南大大活一楼一家很整洁的咖啡厅休息，再次感叹南大的学生太幸福了。逛完南大第一感觉是和厦大翔校很像，有自己的建筑风格，还有好几家小资的咖啡厅，同样雄伟的图书馆和大活。所以就更加坚定读研要去北京的打算吧，感觉在合肥四年看到接触到的的东西太少了，觉得应该去弥补回来。最后去食堂的时候路过一个雕像，名字叫「闯」，学姐说南大的学生们都叫他「裸考门门过」，百度了一下竟然是头条，南大学子真是太有创意，不过也怪这个雕像设计太怪咖。<br><img src="http://ww2.sinaimg.cn/large/6d7d5c05jw1er1dv6zyf0j206y07475a.jpg" alt="裸考门门过"><br><img src="http://ww3.sinaimg.cn/large/6d7d5c05jw1er1dw0dpmmj208c069mxy.jpg" alt=""><br>　　后来在南大吃了一顿晚饭就离开出发去夫子庙了。至于夫子庙，大概是因为逛过太多热闹集市，所以也没有太惊喜。后来还听说那边的秦淮河都变成臭水沟了，好在是晚上去所以没有看见丑陋的模样。吃了20块一例的蟹黄汤包还有什么酒酿，评价：差。大概不会再想去第二次了吧，坑游客，但是还是很多游客。而且各家小吃城都卖一样的东西。。走几步路就是一家。比较特色的大概就只剩下了店面的装潢了吧，夜景还不错，拍拍照。晚上香香来接风就在药大CPU住下。第二天逛了逛药大，见到了传说中药大有爱的猫，竟然不怕人，一点都不傲娇，一靠近就贴过来，没有一点野性，听说是因为药大的学生都很爱护小动物所以经常会给他们吃的，或者干脆直接抱回宿舍养一阵子。对药大最深的影像，大概就是解剖还有药用植物吧，也很符合这所学校的气质。中午去了龙眠大道吃自助烤肉，跟金斧川差不多。然后下午去逛学校，从南大鼓楼开始，穿过南师再到河海。鼓楼校区很有古韵，见到了很多照片和明信片上印的那栋爬满爬山虎的钟楼。听说有很多校友每年会在这里拍婚纱照呢。<br><img src="http://ww2.sinaimg.cn/large/6d7d5c05jw1er1dw238b0j208c069q3h.jpg" alt="南大鼓楼校区"><br>　　校园很整洁，在这里念书的学生应该很幸福吧，除了经常被游客打扰以外，环境大概也不比厦大本部差哦。南师也是一座很有故乡古韵的学校，大概是被笼罩在南大的光环下很少被别人注意到吧，这里的游客显然没有隔壁的南大多，很喜欢这座学校的建筑风格。河海和南师就隔着一条马路，相比之下河海的校园环境就没有南师好了，很朴素的正正方方的旧楼。晚上去新街口和JX汇合，第二次来新街口跟第一次的感觉不太相似，也是因为这里的出口太多对于我这种外地人来说感觉有点乱七八糟，分不清东西南北。所以应该是走了和上次不同的出口吧，没有找到上一次四面都是摩登大厦的角度。整体当然还是很繁华的，毕竟中国第二大商圈嘛（引用自JX）。吃完饭又吃了点小吃奶茶，一路散步走过两三个地铁站。在南京一中门口合了张影哈哈，可惜保安大叔拍得太模糊。第三天逛了东南老区还有鸡鸣寺隔壁的古生物博物馆就离开了，原本是打算去鸡鸣寺的，但是看到那么多游客就望而却步了。<br><img src="http://ww1.sinaimg.cn/large/6d7d5c05jw1er1dw47eirj208c069mxp.jpg" alt="厦一小分队"><br>　　第三次来南京，觉得这座城市整体建设还是很不错的，5条地铁线（没记错的话），交通四通八达，这么多天在陆上也没有看到堵车的情况，尤其是清明旅游高峰的情况下，值得称赞。还有11所（香香说的）优秀的985、211，整体的教育资源还是相当丰富的，和其他学校学生交流的机会应该也很多，像南大仙林还经常请大牛来讲座，李彦宏啊俞敏洪啊，甚是羡慕。好在前两天基本没下雨，最后一天也是等我到南京南站准备离开的时候才下大雨的，所以这次旅行还是很愉快的。到了大三发现都没有以前那种旅行的心情了，来南京就感觉好像不过是到和合肥相邻的一片土地上走走停停，这些年也走过不少城市，旅行大概就是见见不同的风景，见见形形色色的人罢了，至少于我而言是这样吧。欣慰的是，有这么多在各地的朋友可以在我需要帮助的时候出面，热情地接待我，这种心情大概比旅行还要满足吧。<br><img src="http://ww1.sinaimg.cn/large/6d7d5c05jw1er1dw61j2aj208c069jsg.jpg" alt="东南老区"><br>　　留长发。<br>　　记一首很喜欢的歌：夜空中最亮的星星——逃跑计划</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>　　原本制定的两周写一篇博客的计划看来是还没开始就破灭了，一开学就发现这学期的事情特别多，红旗团支部申请、GIS大赛、还有机缘巧合被朋友拉进三创赛、学院班级的事情还有课业的各种报告，还有前一阵子联盟技术沙龙开班阶段的事情，过一阵子还要创新项目的结题答辩虽然自己是打酱油的。。。代码没什么长进，这段时间写得比较少，为了备技术沙龙的课前端的基础知识有巩固一下。对了，还有头脑发热组织了一个地理信息技术小组，原本是希望把自己班级的一些同学凑在一块儿每周一起练习两小时的ArcGIS和代码，后来没想到报名小组的同学多半是其他专业的，所以后来就变成每周给大家做一个2h的ArcGIS+Web开发培训了。虽然才2h，但是备课神马的也是很花时间的。明明不想走设计的路结果一直在做设计的事情，哎，做的还这么不专业。<br><img src="http://i2.tietuku.com/a64876d143378bf9.png" alt="Geomatics Group"><br>]]>
     
     </summary>
     
@@ -458,59 +392,6 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
   </entry>
   
   <entry>
-    <title><![CDATA[JavaScript笔记]]></title>
-    <link href="http://surongxiang.github.io/2015/02/09/JavaScript%E7%AC%94%E8%AE%B0/"/>
-    <id>http://surongxiang.github.io/2015/02/09/JavaScript笔记/</id>
-    <published>2015-02-09T09:23:02.000Z</published>
-    <updated>2015-05-30T14:37:00.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="addEventListener">addEventListener</h2><p>可以在同一个对象上叠加不同方法<br><a id="more"></a></p>
-<figure class="highlight openscad"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">var x = document.getElementById<span class="params">(<span class="string">"btn"</span>)</span>;</span><br><span class="line">x.addEventListener<span class="params">(<span class="string">"click"</span>,hello)</span>;</span><br><span class="line">x.addEventListener<span class="params">(<span class="string">"click"</span>,world)</span>;</span><br><span class="line">x.removeEventListener<span class="params">(<span class="string">"click"</span>,hello)</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">hello</span><span class="params">()</span>&#123;</span></span><br><span class="line">	alert<span class="params">(<span class="string">"Hello"</span>)</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">world</span><span class="params">()</span>&#123;</span></span><br><span class="line">	alert<span class="params">(<span class="string">"World"</span>)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="浏览器对象——window对象">浏览器对象——window对象</h2><ol>
-<li>window对象：<br>window对象是BOM的核心，window对象指当前的浏览器窗口<br>所有JavaScript全局对象、函数以及变量均自动成为window对象的成员<br>全局变量是window对象的属性<br>全局函数是window对象的方法<br>甚至HTML DOM的document也是window对象的属性之一</li>
-<li>window尺寸：<br>window.innerHeight - 浏览器窗口的内部高度<br>window.innerWidth - 浏览器窗口的内部宽度</li>
-<li>window方法<br>window.open() - 打开新窗口<br>window.close() - 关闭当前窗口</li>
-</ol>
-<h2 id="浏览器对象——计时器">浏览器对象——计时器</h2><ol>
-<li>计时事件：<br>　　在一个设定的时间间隔之后来执行代码，而不是在函数被调用后就被立即执行。我们称之为计时事件。</li>
-<li>计时方法：<br>1）：setInterval() - 间隔指定的毫秒数不停地执行指定的代码<br> clearInterval() - 用于停止setInterval方法执行的函数代码<br>2）：setTimeout() - 暂定指定的毫秒数后执行指定的代码<br>clearTimeout() - 用于停止执行setTimeout()方法的函数代码</li>
-</ol>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="addEventListener">addEventListener</h2><p>可以在同一个对象上叠加不同方法<br>]]>
-    
-    </summary>
-    
-      <category term="js" scheme="http://surongxiang.github.io/categories/js/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[JSP笔记]]></title>
-    <link href="http://surongxiang.github.io/2015/02/02/JSP%E7%AC%94%E8%AE%B0/"/>
-    <id>http://surongxiang.github.io/2015/02/02/JSP笔记/</id>
-    <published>2015-02-02T03:45:24.000Z</published>
-    <updated>2015-05-30T14:36:14.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="JSP指令和脚本元素">JSP指令和脚本元素</h2><p>Directives &lt;%@ directive %&gt;<br>　　加载包：eg：<br><a id="more"></a><br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">page编译指令</span><br><span class="line">&lt;<span class="preprocessor">%</span>@ page import=<span class="string">"java.util.ArrayList"</span> <span class="preprocessor">%</span>&gt;</span><br><span class="line">&lt;<span class="preprocessor">%</span>@ page import=<span class="string">"java.util.LinkedList"</span> <span class="preprocessor">%</span>&gt;</span><br></pre></td></tr></table></figure></p>
-<p>错误页面定向<br><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="setting">errorPage=<span class="value"><span class="string">"handle_error.jsp"</span></span></span></span><br><span class="line"><span class="setting">isErrorPage=<span class="value"><span class="string">"true"</span></span></span></span><br></pre></td></tr></table></figure></p>
-<p>Declarations &lt;%! declaration %&gt;<br>　　声明全局变量<br>Expressions &lt;%= expression %&gt;<br>　　JSP表达式输出<br>Code Fragment/Scriptlet &lt;% code fragment %&gt;<br>Comments &lt;%— comment —%&gt;<br>　　注释</p>
-<h2 id="编译后的文件所在目录">编译后的文件所在目录</h2><p>E:\JAVA\workspace.metadata.plugins\org.eclipse.wst.server.core\tmp0</p>
-<h2 id="项目导出及部署有两种方式：">项目导出及部署有两种方式：</h2><p>1.cd到workspace-&gt;JSPStudy-&gt;WebContent文件夹目录下，输入命令行:<br>war -cvf JSPStudy.jar *<br>然后拷贝到TOMCAT的webapps目录下，然后启动TOMCAT会自动解压缩war文件。然后用浏览器访问即可。<br>2.在Eclipse中操作，右键项目名称选择Export-&gt;WAR file，选择导出路径在TOMCAT的webapps目录，然后启动TOMCAT会自动解压缩war文件。</p>
-<h2 id="注释">注释</h2><p>JSP的注释不会暴露给客户端<br><figure class="highlight mercury"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="comment">%--</span></span><br><span class="line">this <span class="keyword">is</span> JSP comments</span><br><span class="line">--<span class="comment">%&gt;</span></span><br><span class="line">&lt;<span class="comment">%</span></span><br><span class="line">	//this <span class="keyword">is</span> JAVA comment</span><br><span class="line">	<span class="comment">/* this is JAVA comments</span><br><span class="line">	*/</span></span><br><span class="line"><span class="comment">%&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="编译指令include">编译指令include</h2><p> 不能重复定义变量，即调用include的页面和被include的页面不能重复声明同一个变量</p>
-<h2 id="动作指令forward">动作指令forward</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">jsp:forward</span> <span class="attribute">page</span>=<span class="value">"login.jsp"</span>&gt;</span><span class="tag">&lt;/<span class="title">jsp:forward</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>forward指令以下的内容不会被输出</p>
-<h2 id="动作指令inlcude">动作指令inlcude</h2><p>用于包含动态(.jsp)或静态文件(.html)</p>
-<h2 id="JavaBean要创建在src文件夹目录下">JavaBean要创建在src文件夹目录下</h2><h2 id="out对象">out对象</h2><h2 id="request对象">request对象</h2>]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="JSP指令和脚本元素">JSP指令和脚本元素</h2><p>Directives &lt;%@ directive %&gt;<br>　　加载包：eg：<br>]]>
-    
-    </summary>
-    
-      <category term="jsp" scheme="http://surongxiang.github.io/categories/jsp/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[练习布局]]></title>
     <link href="http://surongxiang.github.io/2015/01/31/%E7%BB%83%E4%B9%A0%E5%B8%83%E5%B1%80/"/>
     <id>http://surongxiang.github.io/2015/01/31/练习布局/</id>
@@ -554,6 +435,179 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     </summary>
     
       <category term="tips" scheme="http://surongxiang.github.io/categories/tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2014总结]]></title>
+    <link href="http://surongxiang.github.io/2015/01/27/2014%E6%80%BB%E7%BB%93/"/>
+    <id>http://surongxiang.github.io/2015/01/27/2014总结/</id>
+    <published>2015-01-26T16:11:20.000Z</published>
+    <updated>2015-02-28T12:18:20.000Z</updated>
+    <content type="html"><![CDATA[<p>看到一个有趣的总结方式，就是把这一年来做的事情以清单的形式罗列出来。要说为什么突然决定要开始这么做，应该是想为了避免日后回顾困难吧（现在都要靠翻社交才能记起来干了什么事额……）。第一次写年终总结是在2012年，那是大一上学期寒假的时候写的，记得是刚从合肥回到家的那一天因为兴奋地睡不着觉就拿起本写了一段一万多字的矫情的话。2013年没有继续写，因为这一年太多彷徨导致自己无所事事了一年，不过倒也去了不少地方旅游。</p>
+<h2 id="读的书"><strong>读的书</strong></h2><ol>
+<li><a href="http://book.douban.com/subject/10562233/" target="_blank" rel="external">人生</a></li>
+<li><a href="http://book.douban.com/subject/5352830/" target="_blank" rel="external">唐人街</a></li>
+<li><a href="http://book.douban.com/subject/1033778/" target="_blank" rel="external">富爸爸穷爸爸</a></li>
+<li><a href="http://book.douban.com/subject/4242172/" target="_blank" rel="external">天才在左疯子在右</a></li>
+<li><a href="http://book.douban.com/subject/1770782/" target="_blank" rel="external">追风筝的人</a></li>
+</ol>
+<p>还有三本这几天正在看：</p>
+<ol>
+<li><a href="http://book.douban.com/subject/1082518/" target="_blank" rel="external">麦田里的守望者</a></li>
+<li><a href="http://book.douban.com/subject/20427187/" target="_blank" rel="external">看见</a></li>
+<li><a href="http://book.douban.com/subject/6052860/" target="_blank" rel="external">海底捞你学不会</a></li>
+</ol>
+<p>好吧，由于没有把读完的书留存下来或者写读书笔记的习惯，我能记得的今年看过的书也就这几本了，在此做一个决定，以后每读完一本书就在这里写一篇读书笔记。以前觉得自己是有文字恐惧症的人，后来发现只不过是因为初高中的时候对一些文学名著不感兴趣的原因而对阅读产生抵触，上了大学以后有时间也会看几本闲书，现在觉得读书其实是一件很享受的事情。<br><a id="more"></a></p>
+<h2 id="做的事"><strong>做的事</strong></h2><h3 id="1-2月">1-2月</h3><p>在映联万和打工一个月赚外快。回老家，爬九仙山。</p>
+<h3 id="3月">3月</h3><p>和室友去天鹅湖那边DIY，三七女生节和班级同学一起去幸福DIY做饭，还买了蛋糕全班吃，感觉挺温馨的~然后抱大神学长们的大腿，开始接触网站前端开发技术，也是断断续续学到现在。还去了GDG女性开发者节活动现场担任志愿者。和轮滑社小伙伴刷天鹅湖。</p>
+<h3 id="4月">4月</h3><p>为GIS大赛做准备，断断续续也坚持了两个来月，虽然最后还是没有完成作品……加入<a href="http://user.qzone.qq.com/1405013833/main" target="_blank" rel="external">工大开发者联盟团队</a>开始创业，后面一直在给吃货口袋做推广还有辅助运营等一系列事情，加上联盟自己的事情，忙得不可开支。参加班级羽毛球赛，止步32强……上午赢了一局，下午就输掉被淘汰了。</p>
+<h3 id="5月">5月</h3><p>去听俞敏洪的演讲，创业大讲堂。母亲节组织全班拍照送祝福。联盟举办对话产品经理人和前端技术进校园活动，打打杂帮点忙。创新项目申请通过，项目名称我要记一下，MD太长了：<strong>基于多源遥感技术的煤矿区生态环境演变研究</strong>。</p>
+<h3 id="6月">6月</h3><p>儿童粽子节给全班买粽子糖果过节。考六级。准备期末考。科目二通过。</p>
+<h3 id="7月">7月</h3><p>跟老师做项目，AE开发，写了一点C#。和轮滑社小伙伴刷天鹅湖。从翡翠湖校区搬到屯溪路校区。暑假在安徽省地震局实习半个月，一直到8月8号，其实就是画图……</p>
+<h3 id="8月">8月</h3><p>暑假在餐馆打工。玩儿。星光聚会。</p>
+<h3 id="9月">9月</h3><p>大三开学，驾照进阶到第四阶段！联盟招新，技术沙龙招新。之前由于各种原因没有认真在学前端， 开学以后就腾出比较多的空闲时间在学前端，看了jQuery、Bootstrap，也学了一点简单的Git操作，国庆都没出去玩很对得起自己吧，也算弥补荒被废掉的暑假，自我感觉技术应该多少有点长进吧。</p>
+<h3 id="10月">10月</h3><p>技术沙龙开班，担任南区助教。火狐十周年活动打杂。参加2014ELIFE杯校园黑马创业大赛，被顺利淘汰，和小伙伴们一起写了一本四十多页的商业计划书也是很拼，记得是连续三四天在中心每天赶工到阿姨来赶人，一直到路演当天凌晨两点多才连PPT一起整理完毕，真是折寿，不过有这段经历也不错。</p>
+<h3 id="11月">11月</h3><p>旅行的话，带全班去皖西大裂谷也算吧。然后参加了学校的创业培训，一直到1月初才结业，期间印象最深的应该是去国家科技园参观吧，主要是那边的总经理比较给力，能言善道，最后拿了个优秀学员的奖励，可是感觉自己在打酱油=。=。11月16日参加<br><a href="http://ww4.sinaimg.cn/large/6d7d5c05gw1eonx6v1vlfj21kw28gqmi.jpg" target="_blank" rel="external">合肥2014万科杯马拉松半程（21km）</a>，极其不可思议地完成了比赛，秀一下证书。刚跑完马拉松就去新区给创业培训班的童鞋们做分享，当时简直要死了。</p>
+<h3 id="12月">12月</h3><p>内部办公系统启动，开始参与人生第一个网站项目。参与联盟的<a href="http://user.qzone.qq.com/1405013833/blog/1412415704" target="_blank" rel="external">技术沙龙</a>教学，教学内容是jQuery，小有成就感~后来参加了GDG项目路演活动，担任志愿者，原本是要参加路演的，哎，不过也在认识了一位安大的大神，以后可以多交流。17号GIS交流会，领几个同学一起去新区和直系学弟学妹做交流分享。金斧川班级聚餐跨年。</p>
+<h3 id="2015年1月">2015年1月</h3><p>准备期末考试，刷分真苦逼。搭建hexo个人博客，开始记录学习历程和生活点滴。搞联盟内部办公系统项目的美工。</p>
+<h3 id="2015年2月">2015年2月</h3><p>寒假在软件园实习一个月，虽然干的不是写代码的活儿，但是多多少少学到一些东西。回老家过年，第一次参加割火。</p>
+<h2 id="Coding"><strong>Coding</strong></h2><ol>
+<li>学了html/css/javascript基本前端开发语言</li>
+<li>jQuery</li>
+<li><a href="http://surongxiang.github.io/2015/01/25/%E5%85%88%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AAhexo%E7%9A%84%E7%BB%8F%E9%AA%8C%E5%90%A7/">hexo</a></li>
+<li><a href="http://surongxiang.github.io/2015/01/26/%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%8BMarkdown/#more">markdown</a></li>
+<li>php/MySQL接触一点</li>
+<li>Bootstrap前端框架</li>
+<li>Git工具</li>
+</ol>
+<h2 id="新年计划"><strong>新年计划</strong></h2><ol>
+<li>要念研究生</li>
+<li>多写代码，多学框架，学html5和css3</li>
+<li>吉他</li>
+<li>锻炼身体，体重要加！</li>
+<li>一周至少更一篇博客except考试周（看起来难度颇大）</li>
+<li>刷六级</li>
+<li>看10本书（慢慢来嘛）</li>
+<li>暑假有时间去黄山一趟</li>
+<li>拿到驾照</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>看到一个有趣的总结方式，就是把这一年来做的事情以清单的形式罗列出来。要说为什么突然决定要开始这么做，应该是想为了避免日后回顾困难吧（现在都要靠翻社交才能记起来干了什么事额……）。第一次写年终总结是在2012年，那是大一上学期寒假的时候写的，记得是刚从合肥回到家的那一天因为兴奋地睡不着觉就拿起本写了一段一万多字的矫情的话。2013年没有继续写，因为这一年太多彷徨导致自己无所事事了一年，不过倒也去了不少地方旅游。</p>
+<h2 id="读的书"><strong>读的书</strong></h2><ol>
+<li><a href="http://book.douban.com/subject/10562233/">人生</a></li>
+<li><a href="http://book.douban.com/subject/5352830/">唐人街</a></li>
+<li><a href="http://book.douban.com/subject/1033778/">富爸爸穷爸爸</a></li>
+<li><a href="http://book.douban.com/subject/4242172/">天才在左疯子在右</a></li>
+<li><a href="http://book.douban.com/subject/1770782/">追风筝的人</a></li>
+</ol>
+<p>还有三本这几天正在看：</p>
+<ol>
+<li><a href="http://book.douban.com/subject/1082518/">麦田里的守望者</a></li>
+<li><a href="http://book.douban.com/subject/20427187/">看见</a></li>
+<li><a href="http://book.douban.com/subject/6052860/">海底捞你学不会</a></li>
+</ol>
+<p>好吧，由于没有把读完的书留存下来或者写读书笔记的习惯，我能记得的今年看过的书也就这几本了，在此做一个决定，以后每读完一本书就在这里写一篇读书笔记。以前觉得自己是有文字恐惧症的人，后来发现只不过是因为初高中的时候对一些文学名著不感兴趣的原因而对阅读产生抵触，上了大学以后有时间也会看几本闲书，现在觉得读书其实是一件很享受的事情。<br>]]>
+    
+    </summary>
+    
+      <category term="生活" scheme="http://surongxiang.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[整理一下Markdown]]></title>
+    <link href="http://surongxiang.github.io/2015/01/26/%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%8BMarkdown/"/>
+    <id>http://surongxiang.github.io/2015/01/26/整理一下Markdown/</id>
+    <published>2015-01-26T15:09:53.000Z</published>
+    <updated>2015-02-28T12:20:16.000Z</updated>
+    <content type="html"><![CDATA[<p>整理一下markdown方便以后写文章，免得忘记了怎么写。。</p>
+<h2 id="一、标题"><strong>一、标题</strong></h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#一级标题</span></span><br><span class="line"><span class="preprocessor">##二级标题</span></span><br><span class="line">...</span><br><span class="line"><span class="preprocessor">######六级标题为止</span></span><br></pre></td></tr></table></figure>
+<h1 id="一级标题">一级标题</h1><h2 id="二级标题">二级标题</h2><p>…</p>
+<h6 id="六级标题为止">六级标题为止</h6><a id="more"></a>
+<h2 id="二、段落"><strong>二、段落</strong></h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">　　1.缩进：将中文输入法中改成「全角」输入，再按两个空格</span><br><span class="line">2.新段落：行尾敲下回车，</span><br><span class="line">就像这样。</span><br></pre></td></tr></table></figure>
+<p>　　1.缩进：将中文输入法中改成「全角」输入，再按两个空格<br>2.新段落：行尾敲下回车，<br>就像这样。</p>
+<h2 id="三、文字"><strong>三、文字</strong></h2><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">*</span><span class="keyword">*</span>加粗<span class="keyword">*</span><span class="keyword">*</span></span><br><span class="line"><span class="keyword">*</span>斜体<span class="keyword">*</span></span><br><span class="line">~~~删除线~~~</span><br><span class="line">&gt;引用内容</span><br></pre></td></tr></table></figure>
+<p><strong>加粗</strong><br><em>斜体</em><br><del>~删除线</del>~</p>
+<blockquote>
+<p>引用内容</p>
+</blockquote>
+<h2 id="四、代码"><strong>四、代码</strong></h2><figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="escape">`行</span>内代码<span class="escape">`</span><br><span class="line"></span><span class="escape">``</span>嵌套的话，用<span class="escape">`两</span>个双引号<span class="escape">`嵌</span>套在外面<span class="escape">``</span></span><br><span class="line">	<span class="escape">``</span><span class="escape">`</span><br><span class="line"></span>	#三个反引号包围代码块，会显示行号</span><br><span class="line">	var o = document.getElementById('markdown')<span class="comment">;</span></span><br><span class="line">	<span class="escape">``</span><span class="escape">`</span><br><span class="line"></span>嵌套的话用<span class="number">6</span>个反引号</span><br></pre></td></tr></table></figure>
+<p><code>行内代码</code><br><code>嵌套的话，用`两个双引号`嵌套在外面</code><br><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#三个反引号包围代码块，会显示行号</span></span><br><span class="line"><span class="reserved">var</span> o = <span class="built_in">document</span>.getElementById(<span class="string">'markdown'</span>);</span><br></pre></td></tr></table></figure></p>
+<p>嵌套的话用6个反引号</p>
+<h2 id="五、列表"><strong>五、列表</strong></h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1. 有序列表1，注意点之后的空格</span><br><span class="line"> 详细内容，注意前面有一个空格</span><br><span class="line">2. 有序列表2</span><br><span class="line">1. 我这里写成1，在显示时还是3。</span><br><span class="line"></span><br><span class="line">-<span class="ruby"> 无序列表<span class="number">1</span></span><br><span class="line"></span>-<span class="ruby"> 无序列表<span class="number">2</span></span><br><span class="line"></span>-<span class="ruby"> 无序列表<span class="number">3</span></span><br><span class="line"></span> -<span class="ruby"> 小<span class="number">1</span>，注意前面有一个空格</span><br><span class="line"></span> -<span class="ruby"> 小<span class="number">2</span></span></span><br></pre></td></tr></table></figure>
+<ol>
+<li>有序列表1，注意点之后的空格<br>详细内容，注意前面有一个空格</li>
+<li>有序列表2</li>
+<li>我这里写成1，在显示时还是3。</li>
+</ol>
+<ul>
+<li>无序列表1</li>
+<li>无序列表2</li>
+<li>无序列表3<ul>
+<li>小1，注意前面有一个空格</li>
+<li>小2</li>
+</ul>
+</li>
+</ul>
+<h2 id="六、超链接"><strong>六、超链接</strong></h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="link_label">我的博客</span>](<span class="link_url">http://surongxiang.github.io</span>)</span><br></pre></td></tr></table></figure>
+<p><a href="http://surongxiang.github.io">我的博客</a></p>
+<h2 id="七、图片"><strong>七、图片</strong></h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="link_label">图片</span>](<span class="link_url">http://ww2.sinaimg.cn/large/6d7d5c05gw1eon206qkl2j20b407f3zt.jpg</span>)</span><br></pre></td></tr></table></figure>
+<p><img src="http://ww2.sinaimg.cn/large/6d7d5c05gw1eon206qkl2j20b407f3zt.jpg" alt="图片"></p>
+<h2 id="八、分割线"><strong>八、分割线</strong></h2><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="header">分割线用`---`，下面是一条分割线。</span><br><span class="line">---</span></span><br></pre></td></tr></table></figure>
+<h2 id="分割线用-，下面是一条分割线。">分割线用<code>---</code>，下面是一条分割线。</h2><h2 id="九、其他"><strong>九、其他</strong></h2><p>markdown兼容html，其他高级格式可以直接用html写。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>整理一下markdown方便以后写文章，免得忘记了怎么写。。</p>
+<h2 id="一、标题"><strong>一、标题</strong></h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#一级标题</span></span><br><span class="line"><span class="preprocessor">##二级标题</span></span><br><span class="line">...</span><br><span class="line"><span class="preprocessor">######六级标题为止</span></span><br></pre></td></tr></table></figure>
+<h1 id="一级标题">一级标题</h1><h2 id="二级标题">二级标题</h2><p>…</p>
+<h6 id="六级标题为止">六级标题为止</h6>]]>
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://surongxiang.github.io/categories/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[先总结一下搭建这个hexo博客的经验吧]]></title>
+    <link href="http://surongxiang.github.io/2015/01/25/%E5%85%88%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AAhexo%E7%9A%84%E7%BB%8F%E9%AA%8C%E5%90%A7/"/>
+    <id>http://surongxiang.github.io/2015/01/25/先总结一下搭建这个hexo的经验吧/</id>
+    <published>2015-01-25T14:40:45.000Z</published>
+    <updated>2015-01-26T15:02:54.000Z</updated>
+    <content type="html"><![CDATA[<p>终于把hexo学起来了，花了蛮多时间的。这个博客是用hexo框架搭建的，主题是<a href="https://github.com/hexojs/hexo-theme-light" target="_blank" rel="external">light</a>，更多主题请看<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">这里</a>。按照这位学长总结的<a href="http://zipperary.com/2013/05/28/hexo-guide-1/" target="_blank" rel="external">hexo系列教程</a>比较顺利地完成了博客的搭建。hexo是一个基于node.js的静态博客程序，可以方便的生成静态网页托管在github上。</p>
+<blockquote>
+<p>快速、简单且功能强大的 Node.js 博客框架。<br>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
+</blockquote>
+<a id="more"></a>
+<p>hexo是开源的框架，代码都是可以随便修改的，定制化高，可以按照自己的喜好做设定。然后<a href="http://zipperary.com/2013/05/28/hexo-guide-1/" target="_blank" rel="external">hexo系列教程</a>已经总结的很完整了，一共有5篇教程，环境配置还有具体的搭建过程都可以看这位学长写的文章。我就在这里补充一些我自己在搭建的过程中遇到的几个问题。</p>
+<h2 id="端口冲突"><strong>端口冲突</strong></h2><p>安装完依赖包后要执行<code>hexo generate</code>和<code>hexo server</code>这两个命令。可能会出现和我一样端口冲突的问题，解决办法就是直接修改<code>hexo\_config.yml</code>中的<code>port</code>的值，默认的是4000，随便改一个不会冲突的端口就行了。</p>
+<h2 id="设置ssh"><strong>设置ssh</strong></h2><p>我在把创建的Key添加到ssh-agent的时候，也就是执行这句命令<code>$ ssh-add ~/.ssh/id_rsa</code>的时候出现了如下的问题：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Could <span class="operator">not</span> <span class="built_in">open</span> <span class="operator">a</span> connection <span class="built_in">to</span> your authentication agent.</span><br></pre></td></tr></table></figure></p>
+<p>不要慌张，执行一下下面这句命令就解决了，至于这句话的作用我就不太理解了，希望诸位大神指点。<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>eval <span class="variable">$(</span>ssh-agent)</span><br></pre></td></tr></table></figure></p>
+<p>执行完之后会看到下面这句话，当然pid不一定是8988，总之出现这句话以后再执行<code>$ ssh-add ~/.ssh/id_rsa</code>的时候就成功了。　　<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">Agent</span> pid <span class="number">8988</span></span><br></pre></td></tr></table></figure></p>
+<p>然后下一个问题是要记得更改配置文件<code>hexo\_config.yml</code>里的deploy的设置。如下：repository用ssh的方式，不要用https的，不然每次都要输账号密码很麻烦。SSH格式的URL可以在自己github的项目上看到。<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: github</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:surongxiang/surongxiang.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
+<h2 id="添加个人简介模块"><strong>添加个人简介模块</strong></h2><p>在<code>hexo\themes\light\layout\_widget</code>目录下新建一个文件，名字自己起，比如<code>profile.ejs</code>。把下面的代码粘过去:<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"widget tag"</span>&gt;</span> //class不要删，其他内容自己改</span><br><span class="line"><span class="tag">&lt;<span class="title">h3</span> <span class="attribute">class</span>=<span class="value">"title"</span>&gt;</span>简介<span class="tag">&lt;/<span class="title">h3</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="title">ul</span> <span class="attribute">class</span>=<span class="value">"entry"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>Name: 苏荣祥<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>二次元: 虾米狼（喰种）<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>赫子: 羽赫<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>University: HFUT,Hefei<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>Grade: 三年级<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span>QQ: 517530615<span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://user.qzone.qq.com/1405013833/main"</span> <span class="attribute">target</span>=<span class="value">"_blank"</span>&gt;</span>工大开发者联盟QQ群: 294413005<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>widget的中文意思就是窗口小部件，所以想要自定义部件，直接在这个目录下自己写一个ejs格式的文件就行，完全兼容html。ejs是embedded javascript，从js文件中抽取出html结构，使代码结构清晰简洁易读。还有hexo使用的css不是.css格式的，而是.styl格式，百了下得知stylus是和less/sass类似的一个css processor，比原生的css更简洁一些。</p>
+<h2 id="注意事项"><strong>注意事项</strong></h2><ol>
+<li>每次修改本地文件后，需要<code>hexo generate</code>才能保存。</li>
+<li>每次使用命令时，都要在<code>hexo</code>目录下。即右键<code>hexo</code>文件夹，选择Git Bash。</li>
+<li>每次deploy前先清理一下缓存，不然会出现一些本地缓存的信息。比如已经删除的文章还可以看到。执行<code>hexo clean</code>命令清理缓存。包括你在本地调试的时候如果看到缓存信息，可以先clean一下，然后再重启server。</li>
+<li>写文章要用markdown写，要学习的话可以参考一下这篇文档<a href="http://code.wileam.com/markdown-syntax/" target="_blank" rel="external">markdown语法</a>，很简单易学，多写几篇博客练练手吧。</li>
+<li>简化的hexo命令行<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">g</span> == hexo <span class="keyword">generate</span> <span class="comment">//生成</span></span><br><span class="line">hexo <span class="keyword">d</span> == hexo deploy <span class="comment">//部署</span></span><br><span class="line">hexo s == hexo server <span class="comment">//开启本地服务器</span></span><br><span class="line">hexo <span class="keyword">n</span> == hexo new <span class="comment">//写文章</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="一点心得"><strong>一点心得</strong></h2><p>可能会有人觉得研究博客框架没什么意义，但是我觉得一方面研究这样的框架到更深层次的时候掌握了他的文档结构，理清逻辑关系对于自己开发框架是很有帮助的。另一方面hexo这么简便、这么美怎么能罢手！以后时常来这里更博客，记录一下自己的学习过程，也记录一下身边的琐事。最后，向各位大神看齐！明天整理markdown。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>终于把hexo学起来了，花了蛮多时间的。这个博客是用hexo框架搭建的，主题是<a href="https://github.com/hexojs/hexo-theme-light">light</a>，更多主题请看<a href="https://github.com/hexojs/hexo/wiki/Themes">这里</a>。按照这位学长总结的<a href="http://zipperary.com/2013/05/28/hexo-guide-1/">hexo系列教程</a>比较顺利地完成了博客的搭建。hexo是一个基于node.js的静态博客程序，可以方便的生成静态网页托管在github上。</p>
+<blockquote>
+<p>快速、简单且功能强大的 Node.js 博客框架。<br>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://surongxiang.github.io/categories/hexo/"/>
     
   </entry>
   
