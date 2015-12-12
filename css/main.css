@@ -1020,6 +1020,9 @@ input.menu-search-input {
 .post:last-child .post-eof.post-eof.post-eof {
   display: none;
 }
+.btn-readmore {
+  color: #60a3ec !important;
+}
 .sidebar-toggle {
   position: fixed;
   right: 50px;
@@ -1169,7 +1172,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #407ee8;
+  background: #5e8640;
 }
 .sidebar-nav {
   margin: 0;
@@ -1356,10 +1359,11 @@ input.menu-search-input {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #60a3ec;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
+  font-weight: 900;
 }
 .posts-expand .post-title-link::before {
   content: "";
@@ -1368,7 +1372,7 @@ input.menu-search-input {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #60a3ec;
   visibility: hidden;
   transform: scaleX(0);
   transition-duration: 0.2s;
@@ -2141,14 +2145,14 @@ ul li {
 .post-more-link a {
   padding: 0;
   font-size: 16px;
-  color: #666;
+  color: #60a3ec;
   background: none;
   border: none;
-  border-bottom: 2px solid #666;
+  border-bottom: 2px solid #60a3ec;
   transition-property: border;
 }
 .post-more-link a:hover {
-  border-bottom-color: #222;
+  border-bottom-color: #60a3ec;
 }
 .page-post-detail .post-title,
 .page-post-detail .post-meta {

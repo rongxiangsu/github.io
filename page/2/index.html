@@ -174,8 +174,8 @@
 <p>这个问题网上一百就有了，使用hexo的大神们已经解答了，我就复制一下。参考文档：<a href="http://ijiaober.github.io/2014/08/06/hexo/hexo-07/">Hexo使用攻略：（七）设置Hexo里的评论和分享</a>。关于这三个属性值我查到的解答各异，我用的是下面这三个，可以正常使用，多说后台也可以看到发表的文章和评论，没有问题。</p>
 <p>data-thread-key=”&lt;%= page.path%&gt;”<br>data-title=”&lt;%= page.title %&gt;”<br>data-url=”&lt;%= page.permalink %&gt;”<br>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2015/02/27/关于使用多说遇到的问题总结/#more">
-              閱讀全文 &raquo;
+            <a class="btn btn-readmore" href="/2015/02/27/关于使用多说遇到的问题总结/#more">
+              Read More &raquo;
             </a>
           </div>
         
@@ -250,8 +250,8 @@
 <h2 id="html+css部分">html+css部分</h2><p>每一个<code>&lt;img&gt;</code>有两层的<code>&lt;div&gt;</code>嵌套，外层的添加一个box类，内层的添加一个content类。每张图片的宽度固定为190px，高度设为auto。</p>
 <h2 id="js部分">js部分</h2><p>首先理清思路，分为两部分，先写图片布局方式(imgLocation() 函数)，再写滚动加载(scrollside() 函数)。<br>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2015/02/25/jQuery瀑布流/#more">
-              閱讀全文 &raquo;
+            <a class="btn btn-readmore" href="/2015/02/25/jQuery瀑布流/#more">
+              Read More &raquo;
             </a>
           </div>
         
@@ -396,8 +396,8 @@
 <h2 id="什么是内联图片"><strong>什么是内联图片</strong></h2><p>内联图片是一种新型的图像格式，官方称为：data URI scheme。通常我们存储的图片在网页中需要写：<code>&lt;img src=&quot;http://...&quot; /&gt;</code>或者是图片所在文件路径，而内联图片的写法是<code>&lt;img src=&quot;data:image/png;base64,iVAGRw0KGDCFG...&quot; /&gt;</code></p>
 <p> 这种图片格式无需额外的HTTP请求是不错，但是还有一个重要的一点，浏览器不会缓存这种图像。DATAURL节省了HTTP请求,但是如果这个图像在网页多个地方显示会加大网页的内容，延长下载时间。还有一点IE8以下都不支持这种图像，所以还是IE6的用户就比较悲催了。并且超过100kb图像使用base64编码也会增大图片大小。导致网页整体下载量增加。(BASE64编码图片导致网站浏览缓慢崩溃,但是很多聪明人做法是把背景平铺类图片作为内联图片使用，这样效果很不错。也减少了HTTP请求加快了网站速度。那么你可能会问到如何获取图片的base64编码呢。网络上有很多免费的base编码和解码工具，但是有个最简单方法就是我们写一个PHP文件。使用base64_encode()进行编码：比如：<br><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo base64_encode<span class="list">(<span class="keyword">file_get_contents</span><span class="list">('<span class="number">211</span><span class="number">-11</span>.JPG')</span>)</span><span class="comment">;</span></span><br></pre></td></tr></table></figure></p>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2015/01/27/Data-URI-Scheme-inline-image-内联图片/#more">
-              閱讀全文 &raquo;
+            <a class="btn btn-readmore" href="/2015/01/27/Data-URI-Scheme-inline-image-内联图片/#more">
+              Read More &raquo;
             </a>
           </div>
         
@@ -484,8 +484,8 @@
 </ol>
 <p>好吧，由于没有把读完的书留存下来或者写读书笔记的习惯，我能记得的今年看过的书也就这几本了，在此做一个决定，以后每读完一本书就在这里写一篇读书笔记。以前觉得自己是有文字恐惧症的人，后来发现只不过是因为初高中的时候对一些文学名著不感兴趣的原因而对阅读产生抵触，上了大学以后有时间也会看几本闲书，现在觉得读书其实是一件很享受的事情。<br>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2015/01/27/2014总结/#more">
-              閱讀全文 &raquo;
+            <a class="btn btn-readmore" href="/2015/01/27/2014总结/#more">
+              Read More &raquo;
             </a>
           </div>
         
@@ -561,8 +561,8 @@
 <h1 id="一级标题">一级标题</h1><h2 id="二级标题">二级标题</h2><p>…</p>
 <h6 id="六级标题为止">六级标题为止</h6>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2015/01/26/整理一下Markdown/#more">
-              閱讀全文 &raquo;
+            <a class="btn btn-readmore" href="/2015/01/26/整理一下Markdown/#more">
+              Read More &raquo;
             </a>
           </div>
         
@@ -638,8 +638,8 @@
 <p>快速、简单且功能强大的 Node.js 博客框架。<br>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
 </blockquote>
           <div class="post-more-link text-center">
-            <a class="btn" href="/2015/01/25/先总结一下搭建这个hexo的经验吧/#more">
-              閱讀全文 &raquo;
+            <a class="btn btn-readmore" href="/2015/01/25/先总结一下搭建这个hexo的经验吧/#more">
+              Read More &raquo;
             </a>
           </div>
         
