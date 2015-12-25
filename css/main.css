@@ -1023,6 +1023,9 @@ input.menu-search-input {
 .btn-readmore {
   color: #60a3ec !important;
 }
+.btn-readmore:hover {
+  color: #60a3ec !important;
+}
 .sidebar-toggle {
   position: fixed;
   right: 50px;
@@ -1172,7 +1175,7 @@ input.menu-search-input {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5e8640;
+  background: #e7c265;
 }
 .sidebar-nav {
   margin: 0;

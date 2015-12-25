@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://surongxiang.github.io/"/>
-  <updated>2015-10-17T13:42:58.000Z</updated>
+  <updated>2015-12-25T02:41:08.000Z</updated>
   <id>http://surongxiang.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://surongxiang.github.io/2015/10/17/Ajax%E5%AD%A6%E4%B9%A0/"/>
     <id>http://surongxiang.github.io/2015/10/17/Ajax学习/</id>
     <published>2015-10-17T13:12:13.000Z</published>
-    <updated>2015-10-17T13:42:58.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="一、简介">一、简介</h1><p>　　Ajax的全称是Asynchronous Javascript And XML，即异步JavaScript和XML。Ajax不是一门编程语言，而是一种用于创建快速动态网页的技术。通过在后台与服务器进行少量数据交换，Ajax 可以使网页实现异步更新。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。传统的网页（不使用Ajax）如果需要更新内容，必须重载整个网页页面。<br><img src="http://i13.tietuku.com/b1891963025938dd.png" alt="example"><br>　　学习Ajax只需要具备HTML,CSS,Javascript的基础知识就行。<br><a id="more"></a></p>
 <h1 id="二、同步v-s-异步">二、同步v.s.异步</h1><p>　　先来了解一下同步和异步的概念，同步的机制是：提交请求-&gt;等待服务器处理-&gt;处理完毕返回，这个期间客户端浏览器不能干任何事。<br>　　<img src="http://i13.tietuku.com/ebb6d76f7e9033cc.png" alt="同步"><br>　　异步的机制则是：请求通过事件触发-&gt;服务器处理（这时浏览器仍然可以作其他事情）-&gt;处理完毕返回给客户端。<br><img src="http://i13.tietuku.com/008a19aa43f672b6.png" alt="异步"><br>　　在Ajax中有一个非常重要的对象叫做XMLHttpRequest，也是完成异步请求的主要对象，它具有一些常用的方法，比如open(method,url,async),send()。所有主流浏览器均支持这个对象，兼容IE6以上版本。</p>
 <h1 id="三、HTTP请求">三、HTTP请求</h1><p><strong>一个完整的HTTP请求过程，通常包括下面7个步骤</strong></p>
@@ -105,7 +105,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/09/29/%E8%99%9A%E5%AE%9E%E4%B9%8B%E9%97%B4/"/>
     <id>http://surongxiang.github.io/2015/09/29/虚实之间/</id>
     <published>2015-09-29T10:49:54.000Z</published>
-    <updated>2015-10-17T13:27:18.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>　　怕忘记此刻的心情，还是写一下吧。<br>　　虚实之间是最近看的一本书，芮成钢写的，最后有一首诗非常喜欢，也是这段时间一直让我坚持不懈的精神支柱。芮说，他的很多信仰都包含在这首诗中。</p>
 <h2 id="如果">如果</h2><blockquote>
 <p>吉卜林（英） 芮成钢（译）</p>
@@ -133,7 +133,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/08/07/OpenLayers-GeoServer%E5%85%A5%E6%96%B0%E5%9D%91/"/>
     <id>http://surongxiang.github.io/2015/08/07/OpenLayers-GeoServer入新坑/</id>
     <published>2015-08-07T02:23:28.000Z</published>
-    <updated>2015-10-17T13:28:00.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>　　在公司实习，然后老板要求看一下OpenLayers和GeoServer，原来不是只有ArcGIS……发现新的WebGIS开发模式，记录一下。<br><a id="more"></a></p>
 <h2 id="一、发布一个Shapefile"><strong>一、发布一个Shapefile</strong></h2><ol>
 <li>首先创建一个工作区（Create a New Workspace）</li>
@@ -177,7 +177,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/07/16/%E6%AD%A6%E5%A4%A7LIESMARS-2015%E5%B9%B4%E4%BC%98%E7%A7%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9A%91%E6%9C%9F%E5%A4%8F%E4%BB%A4%E8%90%A5%E7%AC%94%E8%AF%95%E9%A2%98%EF%BC%88%E4%BB%85%E4%BE%9B%E5%8F%82%E8%80%83%EF%BC%89/"/>
     <id>http://surongxiang.github.io/2015/07/16/武大LIESMARS-2015年优秀大学生暑期夏令营笔试题（仅供参考）/</id>
     <published>2015-07-16T08:31:39.000Z</published>
-    <updated>2015-07-16T08:54:57.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>一、基础题（4选3）<br>1.现有A，B，C三个自然数，证明(A+B)/2，(B+C)/2，(A+C)/2中必有一个为整数。<br>2.X=0，1，2时f(x）=0.6，0.7，0.8，试用抛物线拟合方法求出极值。<br>3.证明两条线段相交，用伪代码或一种编程语言说明。<br>4.关于最大似然法的，因为不太懂所以题目没记住，印象中是有关算法的。<br>二、综合题（5选2）<br>1.如何判断一个点在面内，用伪代码或一种编程语言说明。<br>2.写出不少于4种空间分析方法，并说明其中一种方法的算法和原理，用伪代码或编程语言说明。<br>3.现有一个石膏雕塑，缺少纹理信息，如何借助三维建模复原该石膏雕塑，说明关键步骤。<br>4.甲告诉乙，乙说这些信息对他来说没有用，甲告诉丙，丙说对于他而言信息量很大。根据香农对信息的定义分析上述情况。<br>5.给一张小麦、沙漠、土壤、雪地在不同波长电磁波下的地物反射率曲线图，4个小题：<br>（1）可见光的波长范围？<br>（2）为什么可以通过遥感影像区分地物？<br>（3）如何区别小麦和其他地物，选哪两个波段，写出计算公式？<br>（4）如何借助遥感技术估算小麦产量？<br><a id="more"></a><br><br><br>　　考了很多计算机图形学的东西，提个醒，想去武大国重的同学这门课要好好学。面试方面，中文自我介绍，完了以后有位女老师会提问一个英文问题让你用英文回答，我觉得一般会根据你的自我介绍来问，比如我在自我介绍中提到我对WebGIS很感兴趣，老师就问我：How do you think of webgis?不过我没答上来，所以老师就换了一个简单的问题：How do you think of Wuhan University？大概是觉得我的口语比较渣所以就问了个比较容易的问题吧。其他的还有问介绍一下ArcGIS，介绍一下Petrol软件之类的问题，所以自我介绍的时候还是比较重要的，老师很可能根据你的介绍来提问。然后是中文提问，几位老师会根据简历来问，比如问了我这么几个问题，1.创新项目的问题，问得很多很细，所以非常需要提前整理一下项目的东西。2.具体说明你在编程方面的水平，类似这样的，因为我在自我介绍的时候说我喜欢编程。印象较深的是这两个问题，其他的应该也没什么了，面试一共是10min左右的样子。<br>　　资环院、遥感院、测绘院、国重都在信息学部，国重的老师都是大牛，实验室比较小，四层楼，每层的面积不大，信息学部的图书馆还在修建，文理学部在山上，爬坡很累，樱顶很美，竟然是学生宿舍，看到了传说中的武汉大学辩论队的牌坊，霸气。武汉很热，以上。</p>
 ]]></content>
     <summary type="html">
@@ -194,7 +194,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/06/04/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8NexT%E4%B8%BB%E9%A2%98%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E7%9A%84%E6%97%B6%E5%80%99%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
     <id>http://surongxiang.github.io/2015/06/04/关于使用NexT主题以及配置的时候遇到的坑/</id>
     <published>2015-06-04T01:04:27.000Z</published>
-    <updated>2015-06-04T01:31:18.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>　　这两天重新搭hexo，用了<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>这个主题，页面效果相当棒，只是在配置的时候遇到了几个问题，在此记录一下，如果有人遇到相同的问题可以参考。<br><a id="more"></a></p>
 <h2 id="问题一：多说的坑"><strong>问题一：多说的坑</strong></h2><p>　　博主说这个主题集成了多说的评论插件，只要配置.config.yml中的<code>duoshuo_shorname:your_duoshuo_shortname</code>，然而我按照这样配置以后页面上仍然加载不出多说插件，所以索性直接改代码。NexT主题文件夹的layout|_script|comments文件夹里有一个叫做duoshuo.swlg的文件，首先打开自己多说的管理后台页面，然后复制一下多说插件的代码，将duoshuo.swlg的代码改为如下：<br><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template_tag">&#123;% <span class="keyword">if</span> page.title %&#125;</span><span class="xml"></span><br><span class="line"><span class="comment">&lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span>&gt;</span><span class="javascript"></span><br><span class="line">  <span class="keyword">var</span> duoshuoQuery = &#123;short_name:<span class="string">"gisersrx"</span>&#125;;</span><br><span class="line">    (<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> ds = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">        ds.type = <span class="string">'text/javascript'</span>;ds.async = <span class="literal">true</span>;</span><br><span class="line">        ds.src = (<span class="built_in">document</span>.location.protocol == <span class="string">'https:'</span> ? <span class="string">'https:'</span> : <span class="string">'http:'</span>) + <span class="string">'//static.duoshuo.com/embed.js'</span>;</span><br><span class="line">        ds.charset = <span class="string">'UTF-8'</span>;</span><br><span class="line">        (<span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>]</span><br><span class="line">         || <span class="built_in">document</span>.getElementsByTagName(<span class="string">'body'</span>)[<span class="number">0</span>]).appendChild(ds);</span><br><span class="line">    &#125;)();</span><br><span class="line">    </span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 多说公共JS代码 end --&gt;</span></span><br><span class="line"></span><span class="template_tag">&#123;% <span class="keyword">endif</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure></p>
 <p>注意，多说插件代码中的“多说评论框”的hmtl代码不要复制到这里，否则评论框会加载在页面的最底部，即在版权信息的下面，很难看。所以我们打开NexT主题文件夹下的layout|_layout.swlg，这个文件是页面布局的代码，我们找到下面这段代码的位置：<br><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template_tag">&#123;% <span class="keyword">if</span> (theme.duoshuo_hotartical and page.title)  %&#125;</span><span class="xml"></span><br><span class="line">        <span class="comment">&lt;!-- 多说热评文章--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">p</span>&gt;</span>热评文章<span class="tag">&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ds-top-threads"</span> <span class="attribute">data-range</span>=<span class="value">"weekly"</span> <span class="attribute">data-num-items</span>=<span class="value">"4"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"></span><span class="template_tag">&#123;% <span class="keyword">endif</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure></p>
@@ -217,7 +217,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/05/01/%E5%85%B3%E4%BA%8E%E5%88%9B%E6%96%B0%E9%A1%B9%E7%9B%AE/"/>
     <id>http://surongxiang.github.io/2015/05/01/关于创新项目/</id>
     <published>2015-05-01T00:58:57.000Z</published>
-    <updated>2015-06-02T15:44:44.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>　　这几天忙创新项目，把报账的注意事项记录一下，方便日后查询。以下内容只针对资环学院。<br><a id="more"></a></p>
 <h1 id="关于发票">关于发票</h1><p>　　各种发票，校级创新项目的报销金额≤1500元，最理想为1400+，但是可能会出现个别发票无法报销的情况，所以实报金额大概会比你预计的要少一点，最理想状况就是所有的发票都没有问题。发票的话，每一年的发票只能当年报销，貌似最晚也只能拖到隔年的一月份报销，否则无法报销，比如我去年（2014）申请的创新项目在今年（2015）的四月份报销，那么所有2014的发票都不能报销。<br>　　报销费用有分很多种类，大体上创新项目的花费涵盖了下面几类：交通费、差旅费、图书费、邮寄费、材料费、印刷费。记得貌似是有单张发票不能超过500元的规定，在整理发票的时候要把发票按不同类别张贴在半张A4纸上。</p>
 <h1 id="关于报账">关于报账</h1><p>　　报账流程挺繁琐的，现在学校实行网上预约不等候报账，创新项目的预约要找咱院的胡剑导员。具体流程如下：<br>1.找胡导在网上填写预约单，需要提供以下信息：预约时间（必须要在预约时间段内报销否则预约作废）、电话号码、发票张数、各类别报销金额、银行卡号、开户行（一定不能错，否则无法转账后面还要去更改）。然后胡导会打印一张预约单给你。<br>2.签各种单。一般要签三张单，一是材料单（在会计服务中心225拿），二是图书单（在图书馆老馆105拿），三是预约单。<br>　　材料单就是填写你购买的材料，例如移动硬盘、U盘、笔记本、文具用品、纸、插座等等。材料单有三栏要给不同的老师签字：经费主管——彭书传院长，验收人——董诚老师（西教三楼第一间办公室），审核——会计服务中心225的老师。<br>　　图书单就是填写你买的图书，有三栏要给不同的老师签字：经费主管——彭书传院长，验收——高正春老师（纬地楼6楼资料室），审核——图书馆老馆105的老师。预约单只要给彭院长签字就行。<br>　　这样前期的准备工作就完成了，所有整理好的发票+材料单+图书单+预约单。<br>3.在大厅报账<br>　　在会计服务中心二楼大厅报账，把所有材料给会计审核即可。至此报账完成，如果有出什么问题，比如发票不合格、开户行写错之类的，会有会计打电话联系你让你去处理。大体报账的流程就是这样了。<br>　　PS:学校发的农行卡貌似不能用于此类项目报销，支行应该是经开区支行没错，但是就是无法转账，所以最好不要用学校的农行卡吧。</p>
@@ -236,7 +236,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/03/09/%E5%A5%B3%E7%94%9F%E8%8A%82%E7%A5%9D%E7%A6%8F%E5%8A%A8%E7%94%BB/"/>
     <id>http://surongxiang.github.io/2015/03/09/女生节祝福动画/</id>
     <published>2015-03-09T00:07:16.000Z</published>
-    <updated>2015-03-12T13:27:57.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>　　demo：<a href="http://surongxiang.github.io/demo/AllForGirls/" target="_blank">Happy Girls’ Day</a><br>　　源码：<a href="https://github.com/surongxiang/surongxiang.github.io/tree/master/demo/AllForGirls" target="_blank">查看源码</a></p>
 ]]></content>
     <summary type="html">
@@ -252,7 +252,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/03/06/%E5%B9%BD%E7%81%B5%E6%8C%89%E9%92%AE/"/>
     <id>http://surongxiang.github.io/2015/03/06/幽灵按钮/</id>
     <published>2015-03-06T14:57:36.000Z</published>
-    <updated>2015-06-02T15:43:57.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>　　跟着教程敲了一个幽灵按钮的效果，记录几个问题。<br>　　demo：<a href="/demo/ghost/index.html" target="_blank">幽灵按钮</a><br>　　源码：<a href="https://github.com/surongxiang/surongxiang.github.io/tree/master/demo/ghost" target="_blank">查看源码</a><br><a id="more"></a></p>
 <h2 id="一、&lt;span&gt;标签"><strong>一、&lt;span&gt;标签</strong></h2><p>　　<code>&lt;span&gt;</code>标签是内联元素，不具备宽和高属性，要设置display属性值为block或inline-block后，才可以设置其宽高。</p>
 <h2 id="二、百分比格式设置宽高"><strong>二、百分比格式设置宽高</strong></h2><p>　　用百分比格式设置宽高，那么100%对应的就是父级元素的宽高。</p>
@@ -279,7 +279,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/03/05/ArcGIS%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
     <id>http://surongxiang.github.io/2015/03/05/ArcGIS笔记（一）/</id>
     <published>2015-03-05T12:59:05.000Z</published>
-    <updated>2015-06-02T15:42:47.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<h2 id="关于ArcGIS10-2安装"><strong>关于ArcGIS10.2安装</strong></h2><p>　　推荐<a href="http://jingyan.baidu.com/article/e73e26c0cb5c1324adb6a791.html" target="_blank" rel="external">ArcGIS10.2安装教程</a>，这个教程写得很详细，按照这个方法安装了十几次没有出现什么问题。</p>
 <h3 id="License无法启动">License无法启动</h3><p>　　昨天安装遇到一个问题，就是安装完License Manager以后，打开许可服务器管理员点击“启动”按钮没有反应，重新安装后依旧启动不了。如果不是破解过程有错误，那么解决办法就是关闭Windows防火墙。打开“控制面板”-&gt;“Windows防火墙”-&gt;“打开或关闭Windows防火墙”，选择“关闭Windows防火墙”即可。<br>　　如果是安装使用了一段时间，突然某一天无法启动License，直接重装License应该就可以解决。<br><a id="more"></a></p>
 <h3 id="License无法停止">License无法停止</h3><p>　　碰到一次这个问题，打开调试日志发现很多跟计算机名相关的错误，计算机名显示的是乱码，原来是因为计算机名为中文所以出错了。解决办法就是将计算机名改为英文即可。</p>
@@ -323,7 +323,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/02/28/%E5%AE%9E%E4%B9%A0%E7%BB%93%E6%9D%9F/"/>
     <id>http://surongxiang.github.io/2015/02/28/实习结束/</id>
     <published>2015-02-28T12:21:40.000Z</published>
-    <updated>2015-06-02T15:43:15.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>　　到昨天为止，为期一个月的实习结束了，其实不算春节假期，总共上班的时间也就只有15天左右的样子。这是第二次在假期实习，第一次是大二下的暑假，在安徽省地震局实习了半个月。时间很短，当时实习时间是由自己决定的，其实主要原因还是因为不喜欢在那边做的工作才“落跑”的。<a id="more"></a><br>　　地震局一听就知道是一家事业单位，起初想去那里实习一方面是因为暑假时间很多，想做点有意义的事情，去体验体验也是极好的。另一方面机会难得，放假前答应了老师要去所以也不能食言。而且在江西测绘局那边班级也有好几个小伙伴在实习，所以实习就实习呗。地震局的工作和我们专业是很契合的，要知道向我们GIS这样的专业，和开发相关但是重点又不在开发上，如果要去申请好一点的开发岗实习生那真的自己在平时花大把时间敲代码。所以，诸如地震局、测绘局的工作应该算是和我们本专业相关性最大的了。<br>　　在地震局半个月，每个工作日都按照那里正式员工的作息来上班，早上7点挤着公交去，拿着局里发的饭票吃一顿早餐然后开始正式工作，中午就呆在机房午休，下午两点半上班，一直到五点还是五点半下班，然后再坐公交回学校。学校离地震局不太远，大概半小时左右的车程就能到。<br>　　一起实习的有好几位学长，每天的工作就是用ArcGIS画图，也就是矢量化。这种工作就是集乏味枯燥、机械重复、锻炼手速于一体的活儿。第一天工作结束就觉得烦腻，心里独自对白，“日后毕业了绝对不来事业单位工作”。于是乎，每天重复这样的工作一直坚持了半个月的我还是经不住回家的诱惑，买了票，索性白白。别人问我这样的实习有什么收获，我说“我画图可以比原来快了，会用了好多快捷键呢。还有，以后绝对不会去事业单位工作”。所以我觉得我在这里实习的最大收获当然就是体验到了什么是“事业单位”，也可能是我不够了解，只做了点皮毛小事就断章取义，罢了，我也不奢求刚毕业能在事业单位混到什么好职位。<br>　　然后实习结束滚蛋回家，过着糜烂的生活，假前说好的日日读书写代码都是扯淡。<br>　　再说说这个寒假的实习吧。<br>　　某日掐指一算，好像大学的寒暑假也所剩无几了，这是倒数第二个寒假了，不行不行，再不珍惜真的就完蛋了。于是乎在期末考前一段时间就各种寻找实习，也拖了家里还有同学帮忙，最后几经周折找到了一家单位，然后放假也没在学校多呆几天，早早的赶回家。公司的名字叫天择，还是一家创业时间不长的公司，在软件园二期。老板还有前辈们都很友善，在此感谢一下葛总、许总、老板娘、大师兄、二师兄、小李的关照。这一个月是真的体验到了上班族的滋味，早上七点起床，中午在大饭堂排着比学校还多人的长龙抢饭，晚上七点到家，披星戴月，一整天眼睛没离开电脑，眼干眼涩眼疲劳，来回都坐唯一的挤到脚腾空的88路，难得年会前一天坐到一辆空车回家内心激动半天。实习很轻松愉悦，老板对我这个新鲜人也很尊重，放心地交给我三套产品设计的工作，期间还给予我悉心指导，辅助我完成、完善工作，很是感激，虽与我初衷相悖，但是这段经历还是难能可贵，至少让我感到自己所做的东西能够体现些许自身的价值。<br>　　最可怕的事情大概就是怎么努力都得不到肯定，看不到长进。希望下一个暑假能够又有所成长吧。<br>　　又要开学了，新学期继续奋斗吧。</p>
 ]]></content>
     <summary type="html">
@@ -340,7 +340,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/02/27/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8%E5%A4%9A%E8%AF%B4%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/"/>
     <id>http://surongxiang.github.io/2015/02/27/关于使用多说遇到的问题总结/</id>
     <published>2015-02-27T06:14:28.000Z</published>
-    <updated>2015-02-27T07:09:09.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p><a href="http://dev.duoshuo.com/" target="_blank" rel="external">多说</a>是一款用的比较多的评论插件，又有自己的后台，用它的主要原因还是因为自己不会写评论功能吧T_T。。。然后在hexo上使用遇到了两个问题。</p>
 <h2 id="问题一：源码中几个属性值怎么修改？"><strong>问题一：源码中几个属性值怎么修改？</strong></h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 多说评论框 start --&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ds-thread"</span> <span class="attribute">data-thread-key</span>=<span class="value">"请将此处替换成文章在你的站点中的ID"</span> <span class="attribute">data-title</span>=<span class="value">"请替换成文章的标题"</span> <span class="attribute">data-url</span>=<span class="value">"请替换成文章的网址"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 多说评论框 end --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span>&gt;</span><span class="javascript"></span><br><span class="line"><span class="keyword">var</span> duoshuoQuery = &#123;short_name:<span class="string">"surongxiang2015"</span>&#125;;</span><br><span class="line">	(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">		<span class="keyword">var</span> ds = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">		ds.type = <span class="string">'text/javascript'</span>;ds.async = <span class="literal">true</span>;</span><br><span class="line">		ds.src = (<span class="built_in">document</span>.location.protocol == <span class="string">'https:'</span> ? <span class="string">'https:'</span> : <span class="string">'http:'</span>) + <span class="string">'//static.duoshuo.com/embed.js'</span>;</span><br><span class="line">		ds.charset = <span class="string">'UTF-8'</span>;</span><br><span class="line">		(<span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>] </span><br><span class="line">		 || <span class="built_in">document</span>.getElementsByTagName(<span class="string">'body'</span>)[<span class="number">0</span>]).appendChild(ds);</span><br><span class="line">	&#125;)();</span><br><span class="line">	</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 多说公共JS代码 end --&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这个问题网上一百就有了，使用hexo的大神们已经解答了，我就复制一下。参考文档：<a href="http://ijiaober.github.io/2014/08/06/hexo/hexo-07/" target="_blank" rel="external">Hexo使用攻略：（七）设置Hexo里的评论和分享</a>。关于这三个属性值我查到的解答各异，我用的是下面这三个，可以正常使用，多说后台也可以看到发表的文章和评论，没有问题。</p>
@@ -366,7 +366,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/02/25/jQuery%E7%80%91%E5%B8%83%E6%B5%81/"/>
     <id>http://surongxiang.github.io/2015/02/25/jQuery瀑布流/</id>
     <published>2015-02-25T03:10:57.000Z</published>
-    <updated>2015-02-27T03:44:40.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>跟教程敲了一下jQuery瀑布流，整理一下思路：</p>
 <h2 id="html+css部分">html+css部分</h2><p>每一个<code>&lt;img&gt;</code>有两层的<code>&lt;div&gt;</code>嵌套，外层的添加一个box类，内层的添加一个content类。每张图片的宽度固定为190px，高度设为auto。</p>
 <h2 id="js部分">js部分</h2><p>首先理清思路，分为两部分，先写图片布局方式(imgLocation() 函数)，再写滚动加载(scrollside() 函数)。<br><a id="more"></a></p>
@@ -396,7 +396,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/01/31/%E7%BB%83%E4%B9%A0%E5%B8%83%E5%B1%80/"/>
     <id>http://surongxiang.github.io/2015/01/31/练习布局/</id>
     <published>2015-01-31T15:01:24.000Z</published>
-    <updated>2015-02-28T12:18:47.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>下午练习了一下布局，感觉自己写的布局很不规范，可是又不知道怎么规范@#￥%#@！~！￥#。。。为了方便把css和html写在一起了。。。如果哪位大神有闲情逸致欢迎指点。<br>demo：<a href="/demo/nafu/nafu.html" target="_blank">纳福网站</a></p>
 ]]></content>
     <summary type="html">
@@ -412,7 +412,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/01/27/Data-URI-Scheme-inline-image-%E5%86%85%E8%81%94%E5%9B%BE%E7%89%87/"/>
     <id>http://surongxiang.github.io/2015/01/27/Data-URI-Scheme-inline-image-内联图片/</id>
     <published>2015-01-27T14:30:50.000Z</published>
-    <updated>2015-02-28T12:19:06.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>记得这学期去一家公司面试实习岗的时候被问到这个问题，当时不知道是什么，查了一些资料，终于知道那串src是怎么来的了。<br>注：本文转自<a href="http://blog.xmaoseo.com/" target="_blank" rel="external">猫猫优化</a></p>
 <h2 id="什么是内联图片"><strong>什么是内联图片</strong></h2><p>内联图片是一种新型的图像格式，官方称为：data URI scheme。通常我们存储的图片在网页中需要写：<code>&lt;img src=&quot;http://...&quot; /&gt;</code>或者是图片所在文件路径，而内联图片的写法是<code>&lt;img src=&quot;data:image/png;base64,iVAGRw0KGDCFG...&quot; /&gt;</code></p>
 <p> 这种图片格式无需额外的HTTP请求是不错，但是还有一个重要的一点，浏览器不会缓存这种图像。DATAURL节省了HTTP请求,但是如果这个图像在网页多个地方显示会加大网页的内容，延长下载时间。还有一点IE8以下都不支持这种图像，所以还是IE6的用户就比较悲催了。并且超过100kb图像使用base64编码也会增大图片大小。导致网页整体下载量增加。(BASE64编码图片导致网站浏览缓慢崩溃,但是很多聪明人做法是把背景平铺类图片作为内联图片使用，这样效果很不错。也减少了HTTP请求加快了网站速度。那么你可能会问到如何获取图片的base64编码呢。网络上有很多免费的base编码和解码工具，但是有个最简单方法就是我们写一个PHP文件。使用base64_encode()进行编码：比如：<br><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo base64_encode<span class="list">(<span class="keyword">file_get_contents</span><span class="list">('<span class="number">211</span><span class="number">-11</span>.JPG')</span>)</span><span class="comment">;</span></span><br></pre></td></tr></table></figure></p>
@@ -443,7 +443,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/01/27/2014%E6%80%BB%E7%BB%93/"/>
     <id>http://surongxiang.github.io/2015/01/27/2014总结/</id>
     <published>2015-01-26T16:11:20.000Z</published>
-    <updated>2015-02-28T12:18:20.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>看到一个有趣的总结方式，就是把这一年来做的事情以清单的形式罗列出来。要说为什么突然决定要开始这么做，应该是想为了避免日后回顾困难吧（现在都要靠翻社交才能记起来干了什么事额……）。第一次写年终总结是在2012年，那是大一上学期寒假的时候写的，记得是刚从合肥回到家的那一天因为兴奋地睡不着觉就拿起本写了一段一万多字的矫情的话。2013年没有继续写，因为这一年太多彷徨导致自己无所事事了一年，不过倒也去了不少地方旅游。</p>
 <h2 id="读的书"><strong>读的书</strong></h2><ol>
 <li><a href="http://book.douban.com/subject/10562233/" target="_blank" rel="external">人生</a></li>
@@ -521,7 +521,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/01/26/%E6%95%B4%E7%90%86%E4%B8%80%E4%B8%8BMarkdown/"/>
     <id>http://surongxiang.github.io/2015/01/26/整理一下Markdown/</id>
     <published>2015-01-26T15:09:53.000Z</published>
-    <updated>2015-02-28T12:20:16.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>整理一下markdown方便以后写文章，免得忘记了怎么写。。</p>
 <h2 id="一、标题"><strong>一、标题</strong></h2><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#一级标题</span></span><br><span class="line"><span class="preprocessor">##二级标题</span></span><br><span class="line">...</span><br><span class="line"><span class="preprocessor">######六级标题为止</span></span><br></pre></td></tr></table></figure>
 <h1 id="一级标题">一级标题</h1><h2 id="二级标题">二级标题</h2><p>…</p>
@@ -575,7 +575,7 @@ request.onreadystatechange = <span class="function"><span class="keyword">functi
     <link href="http://surongxiang.github.io/2015/01/25/%E5%85%88%E6%80%BB%E7%BB%93%E4%B8%80%E4%B8%8B%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AAhexo%E7%9A%84%E7%BB%8F%E9%AA%8C%E5%90%A7/"/>
     <id>http://surongxiang.github.io/2015/01/25/先总结一下搭建这个hexo的经验吧/</id>
     <published>2015-01-25T14:40:45.000Z</published>
-    <updated>2015-01-26T15:02:54.000Z</updated>
+    <updated>2015-12-25T02:41:08.000Z</updated>
     <content type="html"><![CDATA[<p>终于把hexo学起来了，花了蛮多时间的。这个博客是用hexo框架搭建的，主题是<a href="https://github.com/hexojs/hexo-theme-light" target="_blank" rel="external">light</a>，更多主题请看<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">这里</a>。按照这位学长总结的<a href="http://zipperary.com/2013/05/28/hexo-guide-1/" target="_blank" rel="external">hexo系列教程</a>比较顺利地完成了博客的搭建。hexo是一个基于node.js的静态博客程序，可以方便的生成静态网页托管在github上。</p>
 <blockquote>
 <p>快速、简单且功能强大的 Node.js 博客框架。<br>A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
