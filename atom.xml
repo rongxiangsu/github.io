@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://surongxiang.github.io/"/>
-  <updated>2015-12-25T02:41:08.000Z</updated>
+  <updated>2016-01-23T08:08:25.000Z</updated>
   <id>http://surongxiang.github.io/</id>
   
   <author>
@@ -13,6 +13,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[本站点将停止使用]]></title>
+    <link href="http://surongxiang.github.io/2016/01/23/%E6%9C%AC%E7%AB%99%E7%82%B9%E5%B0%86%E5%81%9C%E6%AD%A2%E4%BD%BF%E7%94%A8/"/>
+    <id>http://surongxiang.github.io/2016/01/23/本站点将停止使用/</id>
+    <published>2016-01-23T08:06:04.000Z</published>
+    <updated>2016-01-23T08:08:25.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>本站点将停止使用，内容将不再更新，已迁移至<a href="http://shininggis.cn" target="_blank" rel="external">shininggis.cn</a>站点。<br>——五世</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>本站点将停止使用，内容将不再更新，已迁移至<a href="http://shininggis.cn" target="_blank" rel="external">shininggis.cn</a>站点。<br>——五世</p>
+</blockq]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Ajax学习]]></title>
